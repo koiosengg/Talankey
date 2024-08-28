@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: normal;
+}
+
+.navbarContainer {
+  display: flex;
+  width: 100%;
+  padding: 20px 160px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  position: fixed;
+  top: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 64px;
+  padding: 0 40px;
+  flex-shrink: 0;
+  background: #fff;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.navbarLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbarLogo a {
+  text-decoration: none;
+}
+
+.navbarLogo a img {
+  width: 142px;
+  height: 22.292px;
+  flex-shrink: 0;
+}
+
+.navbarLinks {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 40px;
+  flex-shrink: 0;
+}
+
+.navbarLinksContainer {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.navbarLinksContainer a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navbarLinksContainer a p {
+  color: var(--Grey-Primary, #777);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.navbarLinksContainer a svg {
+  transition: all 0.3s;
+}
+
+.navbarLinksContainer a:hover p {
+  color: var(--Text-Black-Primary, #101010);
+}
+
+.navbarLinksContainer a:hover svg {
+  transform: rotate(-180deg);
+}
+
+.navbarLinksContainer a:hover svg path {
+  fill: #101010;
+}
+
+.navbarDropdownContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbarDropdownHeading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  height: 60px;
+}
+
+.navbarDropdownHeading p {
+  color: var(--Grey-Primary, #777);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.navbarDropdownHeading svg{
+      transition: all 0.3s;
+}
+
+.navbarDropdownContainer:hover .navbarDropdownHeading p{
+      color: var(--Text-Black-Primary, #101010);
+}
+
+.navbarDropdownContainer:hover .navbarDropdownHeading svg{
+      transform: rotate(-180deg);
+}
+
+.navbarDropdownContainer:hover .navbarDropdownHeading svg path{
+      fill: #101010;
+}
+
+.navbarDropdown {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  padding: 40px;
+  background: #fff;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+}
+
+.navbarDropdownContainer:hover .navbarDropdown {
+  display: grid;
+}
+
+.navbarDropdownContainer a {
+  display: flex;
+  padding: 4px;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+  text-decoration: none;
+}
+
+.navbarDropdownContainer a :hover .heading svg{
+    width: 20px;
+    transform: rotate(0deg);
+}
+
+.navbarDropdownText {
+  display: flex;
+  width: 253px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.navbarDropdownText span {
+  color: var(--Text-Black-text-black-300, #5f5f5f);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.navbarDropdownText .heading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navbarDropdownText .heading span {
+  color: var(--Text-Black-Primary, #101010);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.navbarDropdownText .heading svg{
+    width: 0;
+    transform: rotate(0deg);
+}
+
+.navbarContact {
+  display: inline-flex;
+  height: 40px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  background: var(--Text-Black-Primary, #101010);
+  cursor: pointer;
+}
+
+.navbarContact a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.navbarContact p {
+  color: var(--White, #fff);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.navbarContact svg {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.navbarContact:hover {
+  border: 1px solid var(--Text-Black-Primary, #101010);
+  background: #fff;
+}
+
+.navbarContact:hover p {
+  color: var(--Text-Black-Primary, #101010);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.navbarContact:hover svg path {
+  fill: #101010;
+}
