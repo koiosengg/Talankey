@@ -1,4 +1,5 @@
-import React from "react";
+// App.js
+import React, { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
@@ -8,13 +9,15 @@ import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
+  const [homeNavbar, setHomeNavbar] = useState(false);
+
   return (
     <BrowserRouter>
       <ScrollToTop />
-      <Navbar />
+      <Navbar homeNavbar={homeNavbar} />
       <Routes>
         <Route path="/">
-          <Route index element={<Home />} />
+          <Route index element={<Home setHomeNavbar={setHomeNavbar} />} />
           <Route path="contact" element={<Contact />} />
           <Route path="about" element={<About />} />
           <Route path="*" element={<Home />} />

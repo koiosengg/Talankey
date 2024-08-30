@@ -29,6 +29,11 @@
   box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
 }
 
+.homeNavbar .navbar {
+  box-shadow: none;
+  background: none;
+}
+
 .navbarLogo {
   display: flex;
   align-items: center;
@@ -39,10 +44,8 @@
   text-decoration: none;
 }
 
-.navbarLogo a img {
-  width: 142px;
-  height: 22.292px;
-  flex-shrink: 0;
+.homeNavbar .navbarLogo a .logoPath {
+  fill: #f1f1f1;
 }
 
 .navbarLinks {
@@ -77,6 +80,14 @@
   line-height: normal;
 }
 
+.homeNavbar .navbarLinksContainer a p {
+  color: var(--Grey-grey-50, #f1f1f1);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
 .navbarLinksContainer a svg {
   transition: all 0.3s;
 }
@@ -119,8 +130,19 @@
   line-height: normal;
 }
 
+.homeNavbar .navbarDropdownHeading p {
+  color: var(--Grey-grey-50, #f1f1f1);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
 .navbarDropdownHeading svg {
   transition: all 0.3s;
+  width: 12px;
+height: 12px;
 }
 
 .navbarDropdownContainer:hover .navbarDropdownHeading p {
@@ -133,6 +155,10 @@
 
 .navbarDropdownContainer:hover .navbarDropdownHeading svg path {
   fill: #101010;
+}
+
+.homeNavbar .navbarDropdownHeading svg path {
+  fill: #f1f1f1;
 }
 
 .navbarDropdown {
@@ -245,6 +271,10 @@
   background: #fff;
 }
 
+.homeNavbar .navbarContact:hover {
+  background: none;
+}
+
 .navbarContact:hover p {
   color: var(--Text-Black-Primary, #101010);
   font-family: Inter;
@@ -256,6 +286,35 @@
 
 .navbarContact:hover svg path {
   fill: #101010;
+}
+
+/* Home */
+
+.homeBanner {
+  display: flex;
+  width: 100%;
+  height: 100svh;
+  padding: 0px 111px 26px 110px;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeBannerContainer {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  border-radius: 0px 0px 60px 60px;
+  background: var(--Orange-Primary, #f39200);
+}
+
+.infoContainer {
+  width: 100%;
+  height: 100svh;
+  display: flex;
+  padding: 80px 160px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 80px;
 }
 
 /* Contact */
