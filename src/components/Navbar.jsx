@@ -195,7 +195,7 @@ function Navbar({ homeNavbar }) {
             <Link to="/about">
               <p>About Us</p>
             </Link>
-            <Link to="/">
+            <Link to="/enquiry">
               <p>Enquiry Form</p>
             </Link>
           </div>

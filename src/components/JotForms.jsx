@@ -1,3 +1,4 @@
+// JotFormEmbed.jsx
 import React, { useEffect } from "react";
 
 const JotFormEmbed = () => {
@@ -28,6 +29,7 @@ const JotFormEmbed = () => {
     <iframe
       id="JotFormIFrame-240382619705054"
       title="Form"
+      onLoad={() => window.parent.scrollTo(0, 0)}
       allowTransparency="true"
       allow="geolocation; microphone; camera; fullscreen"
       src="https://form.jotform.com/240382619705054"

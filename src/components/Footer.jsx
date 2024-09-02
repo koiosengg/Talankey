@@ -7,7 +7,7 @@ function Footer() {
     <div className="footer">
       <div className="footerLinkLogo">
         <div className="footerLogo">
-          <Link>
+          <Link to="/">
             <img src={TalankeyOtherLogo} />{" "}
           </Link>
           <div className="footerSocialLink">

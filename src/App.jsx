@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Enquiry from "./components/Enquiry";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -20,6 +21,7 @@ function App() {
           <Route index element={<Home setHomeNavbar={setHomeNavbar} />} />
           <Route path="contact" element={<Contact />} />
           <Route path="about" element={<About />} />
+          <Route path="enquiry" element={<Enquiry />} />
           <Route path="*" element={<Home />} />
         </Route>
       </Routes>
