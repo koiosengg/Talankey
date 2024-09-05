@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import CNCTurning from "/CNC Turning.svg";
-import Laser from "/Laser.svg"
+import Laser from "/Laser.svg";
 import CNCMillingServices from "/CNC Milling Services.svg";
-import EDM from "/EDM.svg"
+import EDM from "/EDM.svg";
 
 function Navbar({ homeNavbar }) {
   return (
@@ -199,36 +199,34 @@ function Navbar({ homeNavbar }) {
               <p>Enquiry Form</p>
             </Link>
           </div>
-          <div className="navbarContact">
-            <Link to="/contact">
-              <p>Contact Us</p>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
+          <Link to="/contact" className="navbarContact">
+            <p>Contact Us</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+            >
+              <mask
+                id="mask0_303_2121"
+                style={{ maskType: "alpha" }}
+                maskUnits="userSpaceOnUse"
+                x="0"
+                y="0"
                 width="20"
                 height="20"
-                viewBox="0 0 20 20"
-                fill="none"
               >
-                <mask
-                  id="mask0_303_2121"
-                  style={{ maskType: "alpha" }}
-                  maskUnits="userSpaceOnUse"
-                  x="0"
-                  y="0"
-                  width="20"
-                  height="20"
-                >
-                  <rect width="20" height="20" fill="#D9D9D9" />
-                </mask>
-                <g mask="url(#mask0_303_2121)">
-                  <path
-                    d="M7.01668 16.6667L5.83334 15.4833L11.3167 9.99999L5.83334 4.51666L7.01668 3.33333L13.6833 9.99999L7.01668 16.6667Z"
-                    fill="white"
-                  />
-                </g>
-              </svg>
-            </Link>
-          </div>
+                <rect width="20" height="20" fill="#D9D9D9" />
+              </mask>
+              <g mask="url(#mask0_303_2121)">
+                <path
+                  d="M7.01668 16.6667L5.83334 15.4833L11.3167 9.99999L5.83334 4.51666L7.01668 3.33333L13.6833 9.99999L7.01668 16.6667Z"
+                  fill="white"
+                />
+              </g>
+            </svg>
+          </Link>
         </div>
       </div>
     </div>

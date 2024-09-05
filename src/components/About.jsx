@@ -9,6 +9,8 @@ import AboutTestImg4 from "../assets/About/Talankey aboutTestImg4.jfif";
 import AboutTestImg5 from "../assets/About/Talankey aboutTestImg5.jfif";
 import AboutTestImg6 from "../assets/About/Talankey aboutTestImg6.jfif";
 import AboutTestImg7 from "../assets/About/Talankey aboutTestImg7.jfif";
+import Marquee from "./Marquee";
+import Testimonials from "./Testimonials";
 import EnquiryDiv from "./EnquiryDiv";
 
 function About() {
@@ -196,6 +198,8 @@ function About() {
           </div>
         </div>
       </div>
+      <Marquee />
+      <Testimonials />
       <EnquiryDiv />
     </div>
   );

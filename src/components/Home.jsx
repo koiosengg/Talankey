@@ -34,7 +34,7 @@ function Home({ setHomeNavbar }) {
       <div className="homeBanner" ref={homeBannerRef}>
         <div className="homeBannerContainer"></div>
       </div>
-      <div className="infoContainer"></div>
+      <div className="infoContainer" style={{height:"100svh"}}></div>
     </div>
   );
 }

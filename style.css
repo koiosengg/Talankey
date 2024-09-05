@@ -230,6 +230,7 @@
 }
 
 .navbarContact {
+  text-decoration: none;
   display: inline-flex;
   height: 40px;
   padding: 8px 16px;
@@ -240,15 +241,6 @@
   background: var(--Text-Black-Primary, #101010);
   cursor: pointer;
   border: 1px solid var(--Text-Black-Primary, #101010);
-}
-
-.navbarContact a {
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  flex-shrink: 0;
 }
 
 .navbarContact p {
@@ -404,7 +396,9 @@
 }
 
 .productBanner img {
-  max-height: 415.129px;
+  height: 100%;
+  min-height: 200px;
+  width: auto;
   object-fit: cover;
 }
 
@@ -700,6 +694,233 @@
 
 .ourWorkColumn3 > :nth-child(2) {
   height: 367px;
+}
+
+/* Marquee */
+
+.marqueeContainer {
+  width: 100%;
+  height: 123px !important;
+  padding: 80px 0;
+}
+
+.wrapper {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.marquee {
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  animation: marquee 20s linear infinite;
+  height: 36px;
+  padding: 4px 0;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.marquee p {
+  display: inline-block;
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 0px 8px;
+}
+
+.marqueeContainer {
+  position: relative;
+}
+
+.wrapper1 {
+  transform: rotate(2.902deg);
+  background: var(--Linear-Orange-Primary, #f26600);
+  position: absolute;
+  top: 30px;
+}
+
+.wrapper2 {
+  transform: rotate(-2.368deg);
+  background: var(--Text-Black-Primary, #101010);
+  position: absolute;
+  top: 50px;
+}
+
+.wrapper3 {
+  background: var(--Orange-Primary, #f39200);
+  z-index: 1;
+  position: absolute;
+}
+
+.wrapper3 .marquee {
+  animation: reverseMarquee 30s linear infinite;
+}
+
+@keyframes reverseMarquee {
+  0% {
+    transform: translate3d(-50%, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/* Testimonials */
+
+.testimony {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 644px;
+  overflow: hidden;
+  position: relative;
+}
+
+.testimonyWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 644px;
+  overflow: hidden;
+}
+
+.testimonyMarquee {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  animation: vmarquee 10s linear infinite;
+}
+
+@keyframes vmarquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, -50%, 0);
+  }
+}
+
+@keyframes vrmarquee {
+  0% {
+    transform: translate3d(0, -50%, 0);
+  }
+  100% {
+    transform: translate3d(0, 0%, 0);
+  }
+}
+
+.testimonyWrapper1 {
+  padding-left: 16px;
+  padding-right: 12px;
+}
+
+.testimonyWrapper2 {
+  padding: 0px 12px;
+}
+
+.testimonyWrapper3 {
+  padding-left: 12px;
+  padding-right: 16px;
+}
+
+.testimonyWrapper2 .testimonyMarquee {
+  animation: vrmarquee 10s linear infinite;
+}
+
+.testimonySet {
+  display: inline-flex;
+  padding: 32px 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.12);
+  backdrop-filter: blur(20px);
+}
+
+.testimonySet p {
+  color: var(--Text-Black-text-black-300, #5f5f5f);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.testimonyInfo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.testimonyInfo img {
+  width: 51px;
+  height: 51px;
+  border-radius: 51px;
+}
+
+.testimonyInfo .heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.testimonyInfo .heading h4 {
+  color: var(--Text-Black-Primary, #101010);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.testimonyInfo .heading span {
+  color: var(--Text-Black-text-black-300, #5f5f5f);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.testimonyBlurUp {
+  width: 150%;
+  height: 266px;
+  border-radius: 50%;
+  background: #fff;
+  filter: blur(45px);
+  position: absolute;
+  top: -150px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.testimonyBlurDown{
+    width: 150%;
+  height: 266px;
+  border-radius: 50%;
+  background: #fff;
+  filter: blur(45px);
+  position: absolute;
+  bottom: -150px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
 }
 
 /* Enquire Div */
