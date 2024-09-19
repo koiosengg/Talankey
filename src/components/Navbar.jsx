@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import CNCTurning from "/CNC Turning.svg";
-import Laser from "/Laser.svg";
-import CNCMillingServices from "/CNC Milling Services.svg";
-import EDM from "/EDM.svg";
+import CNCTurning from "/Navbar/CNC Turning.svg";
+import Laser from "/Navbar/Laser.svg";
+import CNCMillingServices from "/Navbar/CNC Milling Services.svg";
+import EDM from "/Navbar/EDM.svg";
 
 function Navbar({ homeNavbar }) {
   return (

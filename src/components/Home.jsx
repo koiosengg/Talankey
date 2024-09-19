@@ -1,5 +1,13 @@
-// Home.js
 import React, { useEffect, useRef, useState } from "react";
+import HomeBanner from "./HomeDivs/HomeBanner";
+import HomeBenefits from "./HomeDivs/HomeBenefits";
+import HomeProducts from "./HomeDivs/HomeProducts";
+import Journey from "./Journey";
+import HomeMachines from "./HomeDivs/HomeMachines";
+import HomeStory from "./HomeDivs/HomeStory";
+import Gallery from "./Gallery";
+import Testimonials from "./Testimonials";
+import EnquireDiv from "./EnquiryDiv";
 
 function Home({ setHomeNavbar }) {
   const homeBannerRef = useRef(null);
@@ -15,7 +23,7 @@ function Home({ setHomeNavbar }) {
           }
         });
       },
-      { threshold: 0.1 } // Adjust the threshold to control when the observer triggers
+      { threshold: 0.1 }
     );
 
     if (homeBannerRef.current) {
@@ -30,11 +38,18 @@ function Home({ setHomeNavbar }) {
   }, [setHomeNavbar]);
 
   return (
-    <div>
+    <div className="Home">
       <div className="homeBanner" ref={homeBannerRef}>
-        <div className="homeBannerContainer"></div>
+        <HomeBanner />
       </div>
-      <div className="infoContainer" style={{height:"100svh"}}></div>
+      <HomeBenefits />
+      <HomeProducts />
+      <Journey />
+      <HomeMachines />
+      <HomeStory />
+      <Gallery />
+      <Testimonials />
+      <EnquireDiv />
     </div>
   );
 }

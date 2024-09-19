@@ -1,14 +1,9 @@
 import React from "react";
-import AboutBanner from "/AboutBanner.svg";
-import AboutBannerBelow from "/AboutBannerBelow.svg";
+import AboutBanner from "../assets/About/AboutBanner.svg";
+import AboutBannerBelow from "../assets/About/AboutBannerBelow.svg";
 import AboutTestImg from "../assets/About/Talankey aboutTestImg.jfif";
-import AboutTestImg1 from "../assets/About/Talankey aboutTestImg1.jfif";
-import AboutTestImg2 from "../assets/About/Talankey aboutTestImg2.jfif";
-import AboutTestImg3 from "../assets/About/Talankey aboutTestImg3.jfif";
-import AboutTestImg4 from "../assets/About/Talankey aboutTestImg4.jfif";
-import AboutTestImg5 from "../assets/About/Talankey aboutTestImg5.jfif";
-import AboutTestImg6 from "../assets/About/Talankey aboutTestImg6.jfif";
-import AboutTestImg7 from "../assets/About/Talankey aboutTestImg7.jfif";
+import Journey from "./Journey";
+import Gallery from "./Gallery";
 import Marquee from "./Marquee";
 import Testimonials from "./Testimonials";
 import EnquiryDiv from "./EnquiryDiv";
@@ -137,67 +132,9 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="journey">
-        <div className="heading">
-          <h2>
-            Our Journey
-            <br /> In Numbers
-          </h2>
-          <p></p>
-        </div>
-        <div className="journeySetContainer">
-          <div className="journeySet">
-            <span>1-56</span>
-            <p>Companies Served</p>
-          </div>
-          <div className="journeySet">
-            <span>07</span>
-            <p>Years in Business</p>
-          </div>
-          <div className="journeySet">
-            <span>138</span>
-            <p>Unique Products Sold</p>
-          </div>
-          <div className="journeySet">
-            <span>08</span>
-            <p>Countries Shipped</p>
-          </div>
-        </div>
-      </div>
-      <div className="infoContainer">
-        <div className="infoContainerHeading">
-          <div className="subHeading">
-            <div className="headingLine"></div>
-            <p>Our Gallery</p>
-            <div className="headingLine"></div>
-          </div>
-          <div className="heading">
-            <h2>Our Work In Pictures</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-              arcu.<br></br> Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
-            </p>
-          </div>
-        </div>
-        <div className="ourWork">
-          <div className="ourWorkColumn1">
-            <img src={AboutTestImg1}></img>
-            <img src={AboutTestImg2}></img>
-            <img src={AboutTestImg}></img>
-          </div>
-          <div className="ourWorkColumn2">
-            <img src={AboutTestImg3}></img>
-            <div className="ourWorkColumn2Sub">
-              <img src={AboutTestImg4}></img>
-              <img src={AboutTestImg5}></img>
-            </div>
-          </div>
-          <div className="ourWorkColumn3">
-            <img src={AboutTestImg6}></img>
-            <img src={AboutTestImg7}></img>
-          </div>
-        </div>
-      </div>
+
+      <Journey />
+      <Gallery />
       <Marquee />
       <Testimonials />
       <EnquiryDiv />

@@ -1,5 +1,5 @@
 import React from "react";
-import ContactLinkBackground from "/ContactLinkBackground.svg";
+import ContactLinkBackground from "/GetInTouch/ContactLinkBackground.svg";
 
 function GetInTouch() {
   return (

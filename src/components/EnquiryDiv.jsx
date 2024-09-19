@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import EnquireDivBackground from "/EnquireDivBackground.svg";
+import EnquireDivBackground from "/EnquireDiv/EnquireDivBackground.svg";
 
 function EnquiryDiv() {
   return (

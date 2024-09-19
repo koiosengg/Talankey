@@ -1,7 +1,7 @@
 import React from "react";
-import EnquiryFormShape from "/EnquiryFormShape.svg";
+import EnquiryFormShape from "../assets/Enquiry/EnquiryFormShape.svg";
 import JotFroms from "./JotForms";
-import EnquiryInfoContainer from "/EnquiryInfoContainer.svg";
+import EnquiryInfoContainer from "../assets/Enquiry/EnquiryInfoContainer.svg";
 import GetInTouch from "./GetInTouch";
 
 function Enquiry() {

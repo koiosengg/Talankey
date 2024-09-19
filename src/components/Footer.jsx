@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import TalankeyOtherLogo from "/TalankeyOtherLogo.svg";
+import TalankeyOtherLogo from "/Logos/TalankeyOtherLogo.svg";
 
 function Footer() {
   return (

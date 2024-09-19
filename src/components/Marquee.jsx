@@ -1,5 +1,5 @@
 import React from "react";
-import Star from "/Star.svg";
+import Star from "/Marquee/Star.svg";
 
 function Marquee() {
   return (

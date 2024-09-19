@@ -241,6 +241,7 @@
   background: var(--Text-Black-Primary, #101010);
   cursor: pointer;
   border: 1px solid var(--Text-Black-Primary, #101010);
+  width: 150px;
 }
 
 .navbarContact p {
@@ -253,9 +254,11 @@
 }
 
 .navbarContact svg {
-  width: 20px;
+  width: 0px;
   height: 20px;
   flex-shrink: 0;
+  min-height: 0px;
+  transition: all 0.3s;
 }
 
 .navbarContact:hover {
@@ -274,6 +277,10 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+.navbarContact:hover svg {
+  width: 20px;
 }
 
 .navbarContact:hover svg path {
@@ -297,6 +304,111 @@
   flex-shrink: 0;
   border-radius: 0px 0px 60px 60px;
   background: var(--Orange-Primary, #f39200);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.HomeBannerBackground {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.HomeBannerBackground img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.HomeBannerText {
+  display: flex;
+  width: 891px;
+  height: fit-content;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 0px;
+  gap: 24px;
+  z-index: 1;
+  background: linear-gradient(
+    270deg,
+    rgba(247, 182, 84, 0.35) 0.13%,
+    rgba(247, 186, 93, 0.35) 15.38%,
+    rgba(248, 194, 111, 0.35) 28.91%,
+    rgba(248, 195, 114, 0.35) 67.71%,
+    rgba(248, 191, 106, 0.35) 75.76%,
+    rgba(247, 180, 81, 0.35) 99.89%
+  );
+  backdrop-filter: blur(20px);
+}
+
+.HomeBannerText .heading {
+  width: 891px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.HomeBannerText .heading h1 {
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: Inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.92px;
+}
+
+.HomeBannerText .heading p {
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.HomeBannerButton {
+  display: flex;
+  width: 194px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  background: var(--White, #fff);
+  padding: 8px 16px;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.HomeBannerButton p {
+  color: var(--Text-Black-Primary, #101010);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.HomeBannerButton svg {
+  width: 0px;
+  height: 20px;
+  flex-shrink: 0;
+  min-height: 0px;
+  transition: all 0.3s;
+}
+
+.HomeBannerButton:hover svg {
+  width: 20px;
 }
 
 .infoContainer {
@@ -346,10 +458,11 @@
 }
 
 .infoContainerHeading .heading {
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 16px;
-  align-self: stretch;
+  align-items: center;
 }
 
 .infoContainerHeading .heading h2 {
@@ -381,6 +494,415 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  width: 600px;
+}
+
+.HomeBenefits .infoContainerDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.homebenefitSet {
+  display: flex;
+  width: 100%;
+  padding: 0px 24px 48px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  background: var(--White, #fff);
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.08);
+}
+
+.homebenefitSet .heading {
+  width: 100%;
+  position: relative;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 16px;
+}
+
+.homebenefitSet .heading img {
+  max-height: 40px;
+  object-fit: contain;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.homebenefitSet .heading h3 {
+  color: var(--White, #fff);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  z-index: 1;
+}
+
+.homebenefitSet .content {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.homebenefitSet .content h4 {
+  color: var(--Text-Black-Primary, #101010);
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.72px;
+}
+
+.homebenefitSet .content h4 span {
+  color: var(--Grey-grey-100, #d5d5d5);
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.72px;
+  transition: all 0.5s;
+}
+
+.homebenefitSet:hover .content h4 span {
+  color: var(--Orange-orange-200, #f9cd8a);
+}
+
+.homebenefitSet .content p {
+  color: var(--Text-Black-text-black-300, #5f5f5f);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.HomeProducts .infoContainerDiv {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.homeProductSet {
+  width: 100%;
+  height: 474px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.HomeProductBackground1 {
+  position: absolute;
+  left: 0;
+  width: calc(100% - 57px);
+  height: 450px;
+  background: #f1f1f1;
+  clip-path: polygon(
+    10% 0%,
+    /* Top-left corner */ 100% 0%,
+    /* Top-right corner */ 100% 80%,
+    /* Right intersection */ 90% 100%,
+    /* Bottom-right corner */ 0% 100%,
+    /* Bottom-left corner */ 0% 20% /* Left intersection */
+  );
+  transition: all 0.5s;
+}
+
+.homeProductSet .text {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  z-index: 10;
+  position: relative;
+  padding-left: 24px;
+}
+
+.homeProductSet .text .info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.homeProductSet .text .info h4 {
+  color: var(--Text-Black-Primary, #101010);
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.72px;
+ transition: all 0.3s;
+}
+
+.homeProductSet .text .info h4 span {
+  color: var(--Grey-grey-100, #d5d5d5);
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.72px;
+  transition: all 0.3s;
+}
+
+.homeProductSet .text .info p {
+  color: var(--Text-Black-text-black-300, #5f5f5f);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: all 0.3s;
+}
+
+.homeProductButton {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.homeProductButton .svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: var(--White, #fff);
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+}
+
+.homeProductButton .svg svg {
+  flex-shrink: 0;
+}
+
+.homeProductButton .svg svg path {
+  transition: all 0.5s;
+}
+
+.homeProductButton p {
+  color: var(--Text-Black-Primary, #101010);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  transition: all 0.3s;
+}
+
+.homeProductSet .Image {
+  position: relative;
+  bottom: -24px;
+  width: 40%;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeProductSet .Image img {
+  width: 100%;
+  object-fit: cover;
+  z-index: 1;
+  position: relative;
+}
+
+.homeProductSet .Image .HomeProductBackground2 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 450px;
+  background: #e7e7e7;
+  clip-path: polygon(
+    10% 0%,
+    /* Top-left corner */ 100% 0%,
+    /* Top-right corner */ 100% 80%,
+    /* Right intersection */ 80% 100%,
+    /* Bottom-right corner */ 0% 100%,
+    /* Bottom-left corner */ 0% 0% /* Left intersection */
+  );
+  transition: all 0.5s;
+}
+
+.homeProductSet:hover .HomeProductBackground1 {
+  background: #f26600;
+}
+
+.homeProductSet:hover .HomeProductBackground2 {
+  background: rgba(243, 146, 0, 0.4);
+  backdrop-filter: blur(25px);
+}
+
+.homeProductSet:hover .text .info h4 {
+  color: #fff;
+}
+
+.homeProductSet:hover .text .info h4 span {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.homeProductSet:hover .text .info p {
+  color: #fff;
+}
+
+.homeProductSet:hover .homeProductButton .svg svg path {
+  fill: #f39200;
+}
+
+.homeProductSet:hover .homeProductButton p {
+  color: #fff;
+}
+
+.HomeMachines .infoContainerDiv {
+  width: 100%;
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.homeMachineSet {
+  width: 100%;
+  height: 378px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--White, #fff);
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s;
+}
+
+.homeMachineSet .Line {
+  width: 72px;
+  height: 4px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #e0e0e0;
+  margin-top: 24px;
+  transition: all 0.3s;
+}
+
+.homeMachineSet .content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.homeMachineSet .content h4 {
+  width: 100%;
+  padding-left: 24px;
+  color: var(--Text-Black-Primary, #101010);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.homeMachineSet .content img {
+  padding: 0px 40px;
+  width: 100%;
+  height: 248px;
+  object-fit: contain;
+}
+
+.homeMachineSet:hover {
+  background: #f1f1f1;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.15);
+}
+
+.homeMachineSet:hover .Line {
+  width: 116px;
+  background: #f39200;
+  box-shadow: 0px 4px 16px 0px #f39200;
+}
+
+.HomeStory .infoContainerDiv {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  align-self: stretch;
+}
+
+.homeStoryText {
+  display: flex;
+  width: 506px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.homeStoryText h4 {
+  color: var(--Text-Black-Primary, #101010);
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.homeStoryText p {
+  color: var(--Text-Black-text-black-300, #5f5f5f);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.homeStoryText a {
+  display: flex;
+  height: 36px;
+  padding: 8px 16px;
+  padding-left: 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.homeStoryText a p {
+  color: var(--Text-Black-Primary, #101010);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-bottom: 1px #101010 solid;
+}
+
+.homeStoryText a svg {
+  width: 0px;
+  min-width: 0px;
+  transition: all 0.3s;
+}
+
+.homeStoryText a:hover svg {
+  width: 20px;
+}
+
+.HomeStory .infoContainerDiv img {
+  width: 100%;
 }
 
 /* Product Pages */
@@ -494,9 +1016,9 @@
   align-items: flex-start;
   padding: 16px;
   gap: 16px;
-  border: 1px solid var(--Text-Black-text-black-50, #e7e7e7);
+  border: 1px solid var(--Linear-Orange-linear-orange-50, #fef0e6);
   background: #fff;
-  box-shadow: 0px 4px 8px 0px rgba(17, 17, 17, 0.08);
+  box-shadow: 0px 4px 11px 3px rgba(17, 17, 17, 0.08);
   flex-grow: 1;
 }
 
@@ -783,9 +1305,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 644px;
+  height: 600px;
   overflow: hidden;
   position: relative;
+}
+
+.Home .testimony {
+  height: 700px;
+}
+
+.Home .testimonyWrapper {
+  height: 700px;
 }
 
 .testimonyWrapper {
@@ -793,7 +1323,7 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
-  height: 644px;
+  height: 600px;
   overflow: hidden;
 }
 
@@ -802,13 +1332,13 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
-  animation: vmarquee 10s linear infinite;
+  animation: vmarquee 15s linear infinite;
   animation-play-state: running;
   cursor: grab;
 }
 
 .testimonyMarquee:hover {
-  animation-play-state: paused; /* Pauses animation on hover */
+  animation-play-state: paused;
 }
 
 @keyframes vmarquee {
@@ -844,7 +1374,7 @@
 }
 
 .testimonyWrapper2 .testimonyMarquee {
-  animation: vrmarquee 10s linear infinite;
+  animation: vrmarquee 15s linear infinite;
   animation-play-state: running;
 }
 
@@ -1027,6 +1557,11 @@
   font-weight: 600;
   line-height: normal;
   text-decoration: none;
+  transition: all 0.3s;
+}
+
+.enquireDivtext a:hover {
+  scale: 1.2;
 }
 
 /* Contact */

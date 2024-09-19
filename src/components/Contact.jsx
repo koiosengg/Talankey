@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import ContactFormShape from "/ContactFormShape.svg";
+import ContactFormShape from "../assets/Contact/ContactFormShape.svg";
 import ContactFormImgBackground from "../assets/Contact/ContactFormImgBackground.svg";
 import ContactImg1 from "../assets/Contact/Talankey CNC Turning.png";
 import ContactImg2 from "../assets/Contact/Talankey CNC Milling.png";
