@@ -22,7 +22,7 @@ function HomeProducts() {
         </div>
       </div>
       <div className="infoContainerDiv">
-        <Link to="" className="homeProductSet">
+        <Link to="CNCturning" className="homeProductSet">
           <div className="HomeProductBackground1"></div>
           <div className="text">
             <div className="info">

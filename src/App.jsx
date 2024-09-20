@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
+import CNCturning from "./components/CNCturning";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Enquiry from "./components/Enquiry";
@@ -19,6 +20,7 @@ function App() {
       <Routes>
         <Route path="/">
           <Route index element={<Home setHomeNavbar={setHomeNavbar} />} />
+          <Route path="CNCturning" element={<CNCturning />} />
           <Route path="contact" element={<Contact />} />
           <Route path="about" element={<About />} />
           <Route path="enquiry" element={<Enquiry />} />

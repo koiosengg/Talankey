@@ -12,7 +12,7 @@ function About() {
   return (
     <div className="About">
       <div className="productBanner">
-        <img src={AboutBanner}></img>
+        <img className="aboutProductBanner" src={AboutBanner}></img>
         <div className="heading">
           <h1>
             Building the Future with <br /> Precision and Passion

@@ -647,7 +647,7 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: -0.72px;
- transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .homeProductSet .text .info h4 span {
@@ -845,7 +845,7 @@
 
 .homeStoryText {
   display: flex;
-  width: 506px;
+  width: 40%;
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
@@ -902,7 +902,138 @@
 }
 
 .HomeStory .infoContainerDiv img {
+  width: 60%;
+}
+
+.HomeSectors .infoContainerDiv {
+  display: flex;
   width: 100%;
+  align-items: center;
+  gap: 40px;
+  align-items: stretch;
+}
+
+.homeSectorText {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex-shrink: 0;
+}
+
+.homeSectorTextSet {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 24px;
+  align-self: stretch;
+  position: relative;
+  cursor: pointer;
+}
+
+.homeSectorTextSet .heading {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.homeSectorTextSet .heading h4 {
+  width: 100%;
+  color: var(--Grey-Primary, #777);
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.homeSectorTextSet .heading p {
+  width: 100%;
+  color: var(--Text-Black-text-black-300, #5f5f5f);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: none;
+}
+
+.homeSectorTextSet .Line {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 100%;
+  height: 1.5px;
+  background: #c0c0c0;
+  flex-shrink: 0;
+}
+
+.homeSectorTextSet .activeLineDiv {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 1.5px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.homeSectorTextSet .activeLine {
+  width: 0%;
+  position: absolute;
+  bottom: 0;
+  background: #f39200;
+  height: 1.5px;
+  flex-shrink: 0;
+}
+
+.homeSectorImg {
+  width: 50%;
+}
+
+.homeSectorImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.activeSectorSet .heading h4 {
+  color: var(--Text-Black-Primary, #101010);
+}
+
+.activeSectorSet .heading p {
+  display: block;
+}
+
+.activeSectorSet .Line {
+  animation: homeSectorLine 5s linear;
+}
+
+.activeSectorSet .activeLine {
+  animation: homeSectorActiveLine 5s linear;
+}
+
+@keyframes homeSectorLine {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0%;
+  }
+}
+
+@keyframes homeSectorActiveLine {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 /* Product Pages */
@@ -917,11 +1048,48 @@
   padding-top: 120px;
 }
 
-.productBanner img {
+.product .productBanner {
+  justify-content: center;
+  gap: 40px;
+}
+
+.product .productBannerDiv {
+  width: auto;
+  height: auto;
+  min-height: 200px;
+  position: relative;
+}
+
+.productBannerDiv .BannerBackground {
+  width: auto;
   height: 100%;
   min-height: 200px;
-  width: auto;
+}
+
+.productBannerDiv .BannerCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, calc(-50% + 25px));
+}
+
+.productBannerDiv .BannerWheel {
+  width: 320px;
   object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, calc(-50% + 25px));
+  animation: rotateInfinite 10s linear infinite;
+}
+
+@keyframes rotateInfinite {
+  0% {
+    transform: translate(-50%, calc(-50% + 25px)) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, calc(-50% + 25px)) rotate(360deg);
+  }
 }
 
 .productBanner .heading {
@@ -953,7 +1121,285 @@
   line-height: normal;
 }
 
+.productEnquire {
+  display: flex;
+  width: 100%;
+  padding: 80px 160px;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: var(--Orange-orange-50, #fef4e6);
+}
+
+.productEnquire h3 {
+  color: var(--Grey-grey-300, #a4a4a4);
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.2px;
+}
+
+.productEnquire h3 span {
+  color: var(--Text-Black-Primary, #101010);
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.2px;
+}
+
+.productEnquire .content {
+  display: flex;
+  width: 539px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 28px;
+  flex-shrink: 0;
+}
+
+.productEnquire .content p {
+  color: var(--Text-Black-text-black-300, #5f5f5f);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.productEnquireButton {
+  display: flex;
+  width: 223px;
+  height: 48px;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: var(--Orange-Primary, #f39200);
+  color: var(--White, #fff);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.productEnquireButton:hover {
+  scale: 1.2;
+}
+
+.ProductEquipment {
+  padding-bottom: 0px;
+}
+
+.ProductEquipment .infoContainerDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.productEquipmentGallery {
+  width: 100%;
+  height: 306px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.productGalleryControlDiv {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+  flex-shrink: 0;
+}
+
+.productGalleryControl {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+  background: var(--Grey-grey-50, #f1f1f1);
+}
+
+.productGalleryImgDiv {
+  width: 70%;
+  height: 306px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  overflow: hidden;
+}
+
+.productGalleryImgDivSlide {
+  height: 306px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+.productGalleryImgDiv img {
+  width: 60%;
+  height: 306px;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+
+.productGalleryImgDiv .center {
+  width: 60%;
+  filter: none;
+}
+
+.productEquipmentText {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 24px;
+  background: var(--Orange-orange-50, #fef4e6);
+  position: relative;
+  top: -80px;
+  z-index: -1;
+}
+
+.productEquipmentText h5 {
+  width: 305px;
+  color: var(--Text-Black-Primary, #101010);
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.64px;
+}
+
+.productEquipmentTextSetDiv {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 24px;
+}
+
+.productEquipmentTextSet {
+  width: 100%;
+  display: flex;
+  padding: 16px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  flex: 1 0 0;
+}
+
+.productEquipmentTextSet p {
+  color: var(--Text-Black-text-black-300, #5f5f5f);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.productEquipmentTextSet .heading {
+  display: flex;
+  padding: 4px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 0.7px solid var(--Orange-orange-100, #fbddb0);
+}
+
+.productEquipmentTextSet .heading span {
+  color: var(--Text-Black-Primary, #101010);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.ProductFacilities .infoContainerDiv {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.ProductFacilitieSet {
+  width: 100%;
+  background: var(--White, #fff);
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.08);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+  padding-top: 32px;
+}
+
+.ProductFacilitiesBackground {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.ProductFacilitiesIcon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.ProductFacilitieSet h4 {
+  color: var(--Text-Black-Primary, #101010);
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.72px;
+}
+
+.ProductFacilitieSet h4 span {
+  color: var(--Grey-grey-100, #d5d5d5);
+  transition: all 0.3s;
+}
+
+.ProductFacilitieSet:hover span {
+  color: var(--Orange-orange-200, #f9cd8a);
+}
+
+.ProductFacilitieSet p {
+  color: var(--Text-Black-text-black-300, #5f5f5f);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 /* About us */
+
+.aboutProductBanner {
+  height: 100%;
+  min-height: 200px;
+  width: auto;
+  object-fit: cover;
+}
 
 .aboutBannerBelow {
   width: 100%;
@@ -1332,7 +1778,7 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
-  animation: vmarquee 15s linear infinite;
+  animation: vmarquee 25s linear infinite;
   animation-play-state: running;
   cursor: grab;
 }
@@ -1374,7 +1820,7 @@
 }
 
 .testimonyWrapper2 .testimonyMarquee {
-  animation: vrmarquee 15s linear infinite;
+  animation: vrmarquee 25s linear infinite;
   animation-play-state: running;
 }
 

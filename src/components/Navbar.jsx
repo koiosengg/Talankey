@@ -94,7 +94,7 @@ function Navbar({ homeNavbar }) {
                 </svg>
               </div>
               <div className="navbarDropdown">
-                <Link to="/" className="navbarDropdownSet">
+                <Link to="/CNCturning" className="navbarDropdownSet">
                   <img src={CNCTurning} />
                   <div className="navbarDropdownText">
                     <div className="heading">

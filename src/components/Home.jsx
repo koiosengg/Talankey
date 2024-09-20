@@ -5,6 +5,7 @@ import HomeProducts from "./HomeDivs/HomeProducts";
 import Journey from "./Journey";
 import HomeMachines from "./HomeDivs/HomeMachines";
 import HomeStory from "./HomeDivs/HomeStory";
+import HomeSectors from "./HomeDivs/HomeSectors";
 import Gallery from "./Gallery";
 import Testimonials from "./Testimonials";
 import EnquireDiv from "./EnquiryDiv";
@@ -47,6 +48,7 @@ function Home({ setHomeNavbar }) {
       <Journey />
       <HomeMachines />
       <HomeStory />
+      <HomeSectors />
       <Gallery />
       <Testimonials />
       <EnquireDiv />
