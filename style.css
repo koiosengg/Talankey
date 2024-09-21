@@ -1392,6 +1392,251 @@
   line-height: normal;
 }
 
+.ProductProcess .infoContainerDiv {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.ProductProcessContent {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  height: 532px;
+}
+
+.productProcessSet {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.productProcessSet .numberLine {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.productProcessSet .numberLine p {
+  width: 45px;
+  color: var(--Grey-grey-100, #d5d5d5);
+  text-align: center;
+  font-family: Inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.productProcessSet .LineDiv {
+  width: 45px;
+  height: 40px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  transition: all 0.5s;
+}
+
+.productProcessSet .LineDiv .Line {
+  width: 1px;
+  height: 40px;
+  background: #c0c0c0;
+  transition: all 0.5s;
+}
+
+.productProcessSet .LineDiv .activeLine {
+  width: 1px;
+  height: 0px;
+  background: #f39200;
+  transition: all 0.3s;
+  position: absolute;
+  top: 0;
+  transition: all 0.5s;
+}
+
+.productProcessSet .content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px 0px;
+  transition: all 0.5s;
+}
+
+.productProcessSet .content h4 {
+  color: var(--Grey-grey-300, #a4a4a4);
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  transition: all 0.5s;
+}
+
+.productProcessSet .content p {
+  color: var(--Text-Black-text-black-300, #5f5f5f);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: none;
+  transition: all 0.5s;
+}
+
+.activeProductProcess {
+  align-items: center;
+}
+
+.activeProductProcess .numberLine p {
+  color: var(--Orange-Primary, #f39200);
+}
+
+.activeProductProcess .LineDiv {
+  height: 80px;
+}
+
+.activeProductProcess .LineDiv .Line {
+  height: 80px;
+  animation: productProcessLine 5s ease-in;
+}
+
+@keyframes productProcessLine {
+  from {
+    height: 80px;
+  }
+  to {
+    height: 0px;
+  }
+}
+
+.activeProductProcess .LineDiv .activeLine {
+  animation: productProcessActiveLine 5s ease-in;
+}
+
+@keyframes productProcessActiveLine {
+  from {
+    height: 0px;
+  }
+  to {
+    height: 80px;
+  }
+}
+
+.activeProductProcess .content h4 {
+  color: var(--Text-Black-Primary, #101010);
+}
+
+.activeProductProcess .content p {
+  display: block;
+}
+
+.ProductProcessImg {
+  width: 50%;
+}
+
+.ProductProcessImg img {
+  width: 100%;
+  height: 532px;
+  object-fit: cover;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.ProductPortfolio {
+  position: relative;
+  padding: 0;
+  width: 100%;
+  gap: 0;
+}
+
+.ProductPortfolioBackground {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.ProductPortfolio .infoContainerHeading {
+  padding: 80px 160px;
+  z-index: 1;
+  backdrop-filter: blur(20px);
+}
+
+.ProductPortfolio .infoContainerDiv {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 80px 160px;
+  padding-top: 0px;
+}
+
+.ProductPortfolioContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 40px;
+  background: rgba(254, 244, 230, 0.5);
+  backdrop-filter: blur(20px);
+}
+
+.ProductPortfolioSet {
+  width: 100%;
+  display: flex;
+  padding: 24px;
+  align-items: center;
+  gap: 40px;
+  align-self: stretch;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+}
+
+.ProductPortfolioSet .content {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.ProductPortfolioSet .content h4 {
+  color: var(--Text-Black-Primary, #101010);
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.72px;
+}
+
+.ProductPortfolioSet .content p {
+  color: var(--Text-Black-text-black-300, #5f5f5f);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.ProductPortfolioSet img {
+  height: 452px;
+  width: 50%;
+  object-fit: cover;
+}
+
 /* About us */
 
 .aboutProductBanner {
