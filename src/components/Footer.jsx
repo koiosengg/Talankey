@@ -96,7 +96,9 @@ function Footer() {
       </div>
       <div className="footerCopyrigth">
         <p>2024 All rights reserved</p>
-        <p>Crafted by <a>The Koios Studio</a> </p>
+        <p>
+          Crafted by <a href="https://koiosengg.com/" target="_blank">The Koios Studio</a>{" "}
+        </p>
       </div>
     </div>
   );

@@ -51,7 +51,7 @@ function HomeSectors() {
   useEffect(() => {
     const timer = setInterval(() => {
       setActiveIndex((prevIndex) => (prevIndex + 1) % sectorSets.length);
-    }, 5000);
+    }, 10000);
 
     // Cleanup interval on component unmount or when activeIndex changes manually
     return () => clearInterval(timer);

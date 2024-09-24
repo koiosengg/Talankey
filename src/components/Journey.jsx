@@ -40,7 +40,10 @@ function Journey() {
           Our Journey
           <br /> In Numbers
         </h2>
-        <p></p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
+          Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
+        </p>
       </div>
       <div className="journeySetContainer">
         <div className="journeySet">

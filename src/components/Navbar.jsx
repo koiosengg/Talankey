@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import CNCTurning from "/Navbar/CNC Turning.svg";
 import Laser from "/Navbar/Laser.svg";
@@ -6,11 +6,31 @@ import CNCMillingServices from "/Navbar/CNC Milling Services.svg";
 import EDM from "/Navbar/EDM.svg";
 
 function Navbar({ homeNavbar }) {
+  const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
+  const [hasToggled, setHasToggled] = useState(false);
+
+  const toggleMobileNav = () => {
+    setIsMobileNavOpen(!isMobileNavOpen);
+    setHasToggled(true);
+  };
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const handleLinkClick = () => {
+    if (isMobileNavOpen) {
+      setIsMobileNavOpen(false);
+    }
+  };
+
   return (
     <div className={`navbarContainer ${homeNavbar ? "homeNavbar" : ""}`}>
       <div className="navbar">
         <div className="navbarLogo">
-          <Link to="/">
+          <Link to="/" onClick={handleLinkClick}>
             <svg
               width="142"
               height="24"
@@ -228,6 +248,187 @@ function Navbar({ homeNavbar }) {
             </svg>
           </Link>
         </div>
+        <div className="mobileNavbarButton" onClick={toggleMobileNav}>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
+            fill="none"
+            style={{
+              display: isMobileNavOpen ? "none" : hasToggled ? "block" : "",
+            }}
+          >
+            <path
+              d="M8 8H24M8 16H24M8 24H24"
+              stroke="#111111"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
+            fill="none"
+            style={{
+              display: isMobileNavOpen ? "block" : hasToggled ? "none" : "none",
+            }}
+          >
+            <path
+              d="M8 8L24 24M8 24L24.5 8"
+              stroke="#111111"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className={`mobileNavbar ${
+          isMobileNavOpen
+            ? "activeMobileNavbar"
+            : hasToggled
+            ? "nonactiveMobileNavbar"
+            : ""
+        }`}
+      >
+        <div className="mobileNavbarLinks">
+          <div className="mobileNavbarLinkSetDropDown">
+            <div className="heading" onClick={toggleDropdown}>
+              <p>Services</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="12"
+                viewBox="0 0 8 12"
+                fill="none"
+                style={{
+                  transform: isOpen ? "rotate(-270deg)" : "rotate(0deg)",
+                  transition: "transform 0.3s ease",
+                }}
+              >
+                <path
+                  d="M1.53247 0L7.53247 6L1.53247 12L0.467471 10.935L5.40247 6L0.467471 1.065L1.53247 0Z"
+                  fill="#F39200"
+                />
+              </svg>
+            </div>
+            <div
+              className="mobileNavbarDropdown"
+              style={{
+                display: isOpen ? "flex" : "none",
+                flexDirection: "column",
+                transition: "display 0.3s ease",
+              }}
+            >
+              <Link
+                to="/CNCturning"
+                onClick={toggleDropdown}
+                className="mobileNavbarDropdownSet"
+              >
+                <img src={CNCTurning} alt="CNC Turning"></img>
+                <div className="content">
+                  <h4>CNC Turning Services</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Sed leo urna
+                    vestibulum
+                  </p>
+                </div>
+              </Link>
+              <Link
+                to="/CNCturning"
+                onClick={toggleDropdown}
+                className="mobileNavbarDropdownSet"
+              >
+                <img src={CNCMillingServices} alt="CNC Milling"></img>
+                <div className="content">
+                  <h4>CNC Milling Services</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Sed leo urna
+                    vestibulum
+                  </p>
+                </div>
+              </Link>
+              <Link
+                to="/CNCturning"
+                onClick={toggleDropdown}
+                className="mobileNavbarDropdownSet"
+              >
+                <img src={Laser} alt="Laser Cutting"></img>
+                <div className="content">
+                  <h4>Laser Cutting and Bending</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Sed leo urna
+                    vestibulum
+                  </p>
+                </div>
+              </Link>
+              <Link
+                to="/CNCturning"
+                onClick={toggleDropdown}
+                className="mobileNavbarDropdownSet"
+              >
+                <img src={EDM} alt="EDM Services"></img>
+                <div className="content">
+                  <h4>EDM Services</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Sed leo urna
+                    vestibulum
+                  </p>
+                </div>
+              </Link>
+            </div>
+          </div>
+          <Link
+            to="/about"
+            onClick={toggleMobileNav}
+            className="mobileNavbarLinkSet"
+          >
+            <p>About Us</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="8"
+              height="12"
+              viewBox="0 0 8 12"
+              fill="none"
+            >
+              <path
+                d="M1.53247 0L7.53247 6L1.53247 12L0.467471 10.935L5.40247 6L0.467471 1.065L1.53247 0Z"
+                fill="#F39200"
+              />
+            </svg>
+          </Link>
+          <Link
+            to="/enquiry"
+            onClick={toggleMobileNav}
+            className="mobileNavbarLinkSet"
+          >
+            <p>Enquiry Form</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="8"
+              height="12"
+              viewBox="0 0 8 12"
+              fill="none"
+            >
+              <path
+                d="M1.53247 0L7.53247 6L1.53247 12L0.467471 10.935L5.40247 6L0.467471 1.065L1.53247 0Z"
+                fill="#F39200"
+              />
+            </svg>
+          </Link>
+        </div>
+        <Link
+          to="/contact"
+          onClick={toggleMobileNav}
+          className="mobileContactButton"
+        >
+          Contact Us
+        </Link>
       </div>
     </div>
   );

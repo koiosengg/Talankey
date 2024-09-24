@@ -30,7 +30,7 @@ const JotFormEmbed = () => {
       id="JotFormIFrame-240382619705054"
       title="Form"
       onLoad={() => window.parent.scrollTo(0, 0)}
-      allowTransparency="true"
+      allowtransparency="true"
       allow="geolocation; microphone; camera; fullscreen"
       src="https://form.jotform.com/240382619705054"
       frameBorder="0"

@@ -1,12 +1,14 @@
 import React from "react";
 import HomeBannerBackground from "../../assets/Home/HomeBannerBackground.svg";
+import MobileHomeBannerBackground from "../../assets/Home/MobileHomeBannerBackground.svg";
 import { Link } from "react-router-dom";
 
 function HomeBanner() {
   return (
     <div className="homeBannerContainer">
       <div className="HomeBannerBackground">
-        <img src={HomeBannerBackground}></img>
+        <img className="notMobile" src={HomeBannerBackground}></img>
+        <img className="mobile" src={MobileHomeBannerBackground}></img>
       </div>
       <div className="HomeBannerText">
         <div className="heading">
@@ -27,7 +29,7 @@ function HomeBanner() {
           >
             <mask
               id="mask0_630_3959"
-              style={{maskType:"alpha"}}
+              style={{ maskType: "alpha" }}
               maskUnits="userSpaceOnUse"
               x="0"
               y="0"
