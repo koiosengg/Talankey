@@ -454,6 +454,238 @@ function Testimonials() {
             </div>
           </div>
         </div>
+        <div className="mobileTestimonyWrapper mobileTestimonyWrapper1">
+          <div className="mobileTestimonyMarquee">
+            <div className="mobileTestimonySet">
+              <p className="content">
+                Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
+                arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
+                ipsum
+              </p>
+              <div className="info">
+                <img src={TestimonialsImg}></img>
+                <div className="heading">
+                  <p>Ananya Pandey</p>
+                  <span>M.Tech Student</span>
+                </div>
+              </div>
+            </div>
+            <div className="mobileTestimonySet">
+              <p className="content">
+                Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
+                arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
+                ipsum
+              </p>
+              <div className="info">
+                <img src={TestimonialsImg}></img>
+                <div className="heading">
+                  <p>Ananya Pandey</p>
+                  <span>M.Tech Student</span>
+                </div>
+              </div>
+            </div>
+            <div className="mobileTestimonySet">
+              <p className="content">
+                Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
+                arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
+                ipsum
+              </p>
+              <div className="info">
+                <img src={TestimonialsImg}></img>
+                <div className="heading">
+                  <p>Ananya Pandey</p>
+                  <span>M.Tech Student</span>
+                </div>
+              </div>
+            </div>
+            <div className="mobileTestimonySet">
+              <p className="content">
+                Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
+                arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
+                ipsum
+              </p>
+              <div className="info">
+                <img src={TestimonialsImg}></img>
+                <div className="heading">
+                  <p>Ananya Pandey</p>
+                  <span>M.Tech Student</span>
+                </div>
+              </div>
+            </div>
+            <div className="mobileTestimonySet">
+              <p className="content">
+                Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
+                arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
+                ipsum
+              </p>
+              <div className="info">
+                <img src={TestimonialsImg}></img>
+                <div className="heading">
+                  <p>Ananya Pandey</p>
+                  <span>M.Tech Student</span>
+                </div>
+              </div>
+            </div>
+            <div className="mobileTestimonySet">
+              <p className="content">
+                Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
+                arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
+                ipsum
+              </p>
+              <div className="info">
+                <img src={TestimonialsImg}></img>
+                <div className="heading">
+                  <p>Ananya Pandey</p>
+                  <span>M.Tech Student</span>
+                </div>
+              </div>
+            </div>
+            <div className="mobileTestimonySet">
+              <p className="content">
+                Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
+                arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
+                ipsum
+              </p>
+              <div className="info">
+                <img src={TestimonialsImg}></img>
+                <div className="heading">
+                  <p>Ananya Pandey</p>
+                  <span>M.Tech Student</span>
+                </div>
+              </div>
+            </div>
+            <div className="mobileTestimonySet">
+              <p className="content">
+                Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
+                arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
+                ipsum
+              </p>
+              <div className="info">
+                <img src={TestimonialsImg}></img>
+                <div className="heading">
+                  <p>Ananya Pandey</p>
+                  <span>M.Tech Student</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="mobileTestimonyWrapper mobileTestimonyWrapper2">
+          <div className="mobileTestimonyMarquee">
+            <div className="mobileTestimonySet">
+              <p className="content">
+                Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
+                arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
+                ipsum
+              </p>
+              <div className="info">
+                <img src={TestimonialsImg}></img>
+                <div className="heading">
+                  <p>Ananya Pandey</p>
+                  <span>M.Tech Student</span>
+                </div>
+              </div>
+            </div>
+            <div className="mobileTestimonySet">
+              <p className="content">
+                Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
+                arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
+                ipsum
+              </p>
+              <div className="info">
+                <img src={TestimonialsImg}></img>
+                <div className="heading">
+                  <p>Ananya Pandey</p>
+                  <span>M.Tech Student</span>
+                </div>
+              </div>
+            </div>
+            <div className="mobileTestimonySet">
+              <p className="content">
+                Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
+                arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
+                ipsum
+              </p>
+              <div className="info">
+                <img src={TestimonialsImg}></img>
+                <div className="heading">
+                  <p>Ananya Pandey</p>
+                  <span>M.Tech Student</span>
+                </div>
+              </div>
+            </div>
+            <div className="mobileTestimonySet">
+              <p className="content">
+                Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
+                arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
+                ipsum
+              </p>
+              <div className="info">
+                <img src={TestimonialsImg}></img>
+                <div className="heading">
+                  <p>Ananya Pandey</p>
+                  <span>M.Tech Student</span>
+                </div>
+              </div>
+            </div>
+            <div className="mobileTestimonySet">
+              <p className="content">
+                Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
+                arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
+                ipsum
+              </p>
+              <div className="info">
+                <img src={TestimonialsImg}></img>
+                <div className="heading">
+                  <p>Ananya Pandey</p>
+                  <span>M.Tech Student</span>
+                </div>
+              </div>
+            </div>
+            <div className="mobileTestimonySet">
+              <p className="content">
+                Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
+                arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
+                ipsum
+              </p>
+              <div className="info">
+                <img src={TestimonialsImg}></img>
+                <div className="heading">
+                  <p>Ananya Pandey</p>
+                  <span>M.Tech Student</span>
+                </div>
+              </div>
+            </div>
+            <div className="mobileTestimonySet">
+              <p className="content">
+                Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
+                arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
+                ipsum
+              </p>
+              <div className="info">
+                <img src={TestimonialsImg}></img>
+                <div className="heading">
+                  <p>Ananya Pandey</p>
+                  <span>M.Tech Student</span>
+                </div>
+              </div>
+            </div>
+            <div className="mobileTestimonySet">
+              <p className="content">
+                Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
+                arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
+                ipsum
+              </p>
+              <div className="info">
+                <img src={TestimonialsImg}></img>
+                <div className="heading">
+                  <p>Ananya Pandey</p>
+                  <span>M.Tech Student</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="testimonyBlurDown"></div>
       </div>
     </div>

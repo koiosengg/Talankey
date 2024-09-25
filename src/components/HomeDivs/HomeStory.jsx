@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import HomeStoryImg from "../../assets/Home/HomeStory.svg"
+import MobileHomeStoryImg from "../../assets/Home/MobileHomeStory.svg";
 
 function HomeStory() {
   return (
@@ -60,7 +61,8 @@ function HomeStory() {
             </svg>
           </Link>
         </div>
-        <img src={HomeStoryImg}></img>
+        <img src={HomeStoryImg} alt="Talankey Home Story Img" className="notMobile"></img>
+        <img src={MobileHomeStoryImg} alt="Talankey Mobile Home Story Img" className="mobile"></img>
       </div>
     </div>
   );

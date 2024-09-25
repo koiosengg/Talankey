@@ -89,7 +89,26 @@ function HomeSectors() {
               onClick={() => handleSetClick(index)}
             >
               <div className="heading">
-                <h4>{sector.title}</h4>
+                <h4>
+                  {" "}
+                  {sector.title}{" "}
+                  <div className="svg">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="12"
+                      height="8"
+                      viewBox="0 0 12 8"
+                      fill="none"
+                      className="mobile"
+                    >
+                      <path
+                        d="M0 6.46728L6 0.467285L12 6.46728L10.935 7.53229L6 2.59729L1.065 7.53229L0 6.46728Z"
+                        fill="#F39200"
+                      />
+                    </svg>
+                  </div>
+                </h4>
+                <img src={sector.img} className="mobile"></img>
                 <p>{sector.content}</p>
               </div>
               <div className="Line"></div>
