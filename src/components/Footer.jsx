@@ -70,7 +70,7 @@ function Footer() {
             <div className="footerLinkColumn">
               <a>CNC Mining</a>
               <a>CNC Turning</a>
-              <a>Laser Cutting & Bending</a>
+              <a>Laser Cutting <br className="mobile"/> & Bending</a>
               <a>EDM’s</a>
             </div>
           </div>

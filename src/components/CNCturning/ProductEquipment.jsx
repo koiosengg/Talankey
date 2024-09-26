@@ -91,13 +91,15 @@ function ProductEquipment() {
   const [slidePosition, setSlidePosition] = useState(0);
   const galleryRef = useRef(null);
 
-  useEffect(() => {
-    if (galleryRef.current) {
-      const galleryWidth = galleryRef.current.offsetWidth;
-      const slideWidth = galleryWidth * 0.6 + 25;
-      setSlidePosition(-currentIndex * slideWidth);
-    }
-  }, [currentIndex]);
+ useEffect(() => {
+   if (galleryRef.current) {
+     const galleryWidth = galleryRef.current.offsetWidth;
+     const additionalWidth = window.innerWidth < 1200 ? 9 : 25;
+     const slideWidth = galleryWidth * 0.6 + additionalWidth;
+     setSlidePosition(-currentIndex * slideWidth);
+   }
+ }, [currentIndex]);
+
 
   const handlePrevClick = () => {
     if (currentIndex > 0) {

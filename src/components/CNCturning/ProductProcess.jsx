@@ -33,17 +33,14 @@ function ProductProcess() {
     },
   ];
 
-  // Function to handle the automatic cycling of the process sets
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((prevIndex) => (prevIndex + 1) % processData.length);
     }, 5000);
 
-    // Cleanup interval on component unmount or when activeIndex changes
     return () => clearInterval(interval);
   }, [activeIndex, processData.length]);
 
-  // Function to handle click events on a set
   const handleSetClick = (index) => {
     setActiveIndex(index);
   };
@@ -67,7 +64,7 @@ function ProductProcess() {
         </div>
       </div>
       <div className="infoContainerDiv">
-        <div className="ProductProcessContent">
+        <div className="ProductProcessContent notMobile">
           {processData.map((process, index) => (
             <div
               key={index}
@@ -89,6 +86,30 @@ function ProductProcess() {
               </div>
             </div>
           ))}
+        </div>
+        {/* Mobile View */}
+        <div className="mobileProductProcessContent">
+          <div className="mobileNumber">
+            {processData.map((_, index) => (
+              <div
+                key={index}
+                className={`mobileNumberSet ${
+                  activeIndex === index ? "activeProductProcess" : ""
+                }`}
+                onClick={() => handleSetClick(index)}
+              >
+                <p>{index + 1}</p>
+                <div className="LineDiv">
+                  <div className="Line"></div>
+                  <div className="activeLine"></div>
+                </div>
+              </div>
+            ))}
+          </div>
+          <div className="mobileProductProcessText">
+            <h5>{processData[activeIndex].title}</h5>
+            <p>{processData[activeIndex].description}</p>
+          </div>
         </div>
         <div className="ProductProcessImg">
           <img src={processData[activeIndex].image} alt="Process Image" />
