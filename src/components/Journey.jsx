@@ -1,23 +1,26 @@
 import React, { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 
-const useCountUp = (targetNumber, isInView) => {
+// Custom hook for count-up animation
+const useCountUp = (targetNumber, isInView, duration = 3000) => {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
     if (isInView) {
+      const incrementTime = duration / targetNumber; // Calculate time per increment
+
       const incrementCount = (current) => {
         if (current < targetNumber) {
           setTimeout(() => {
             setCount(current + 1);
             incrementCount(current + 1);
-          }, 40);
+          }, incrementTime); // Use dynamic delay
         }
       };
 
       incrementCount(0);
     }
-  }, [targetNumber, isInView]);
+  }, [targetNumber, isInView, duration]);
 
   return count;
 };
@@ -28,10 +31,12 @@ function Journey() {
     threshold: 0.5,
   });
 
-  const companiesServed = useCountUp(56, inView);
-  const yearsInBusiness = useCountUp(7, inView);
-  const productsSold = useCountUp(138, inView);
-  const countriesShipped = useCountUp(8, inView);
+  const duration = 2000; // Set total duration for the count-up animation
+
+  const companiesServed = useCountUp(56, inView, duration);
+  const yearsInBusiness = useCountUp(7, inView, duration);
+  const productsSold = useCountUp(138, inView, duration);
+  const countriesShipped = useCountUp(8, inView, duration);
 
   return (
     <div className="journey" ref={journeyRef}>

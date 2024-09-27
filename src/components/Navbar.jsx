@@ -307,7 +307,7 @@ function Navbar({ homeNavbar }) {
                 viewBox="0 0 8 12"
                 fill="none"
                 style={{
-                  transform: isOpen ? "rotate(-270deg)" : "rotate(0deg)",
+                  transform: isOpen ? "rotate(-90deg)" : "rotate(90deg)",
                   transition: "transform 0.3s ease",
                 }}
               >

@@ -111,8 +111,12 @@ function HomeSectors() {
                 <img src={sector.img} className="mobile"></img>
                 <p>{sector.content}</p>
               </div>
-              <div className="Line"></div>
-              <div className="activeLineDiv">
+
+              <div className="LineDiv">
+                <div className="normalLine">
+                  <div className="Line"></div>
+                </div>
+
                 <div className="activeLine"></div>
               </div>
             </div>
