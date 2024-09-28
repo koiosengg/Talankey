@@ -2,6 +2,7 @@ import React from "react";
 import EnquiryFormShape from "../assets/Enquiry/EnquiryFormShape.svg";
 import JotFroms from "./JotForms";
 import EnquiryInfoContainer from "../assets/Enquiry/EnquiryInfoContainer.svg";
+import MobileEnquiryInfoContainer from "../assets/Enquiry/MobileEnquiryInfoContainer.svg";
 import GetInTouch from "./GetInTouch";
 
 function Enquiry() {
@@ -38,7 +39,8 @@ function Enquiry() {
             </p>
           </div>
         </div>
-        <img src={EnquiryInfoContainer}></img>
+        <img src={EnquiryInfoContainer} className="notMobile"></img>
+        <img src={MobileEnquiryInfoContainer} className="mobile"></img>
       </div>
       <GetInTouch />
     </div>

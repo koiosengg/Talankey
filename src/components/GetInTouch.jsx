@@ -1,5 +1,6 @@
 import React from "react";
 import ContactLinkBackground from "/GetInTouch/ContactLinkBackground.svg";
+import MobileContactLinkBackground from "/GetInTouch/MobileContactLinkBackground.svg";
 
 function GetInTouch() {
   return (
@@ -10,7 +11,11 @@ function GetInTouch() {
       <div className="contactLinkContainer">
         <img
           src={ContactLinkBackground}
-          className="contactLinkContainerBackground"
+          className="contactLinkContainerBackground notMobile"
+        ></img>
+        <img
+          src={MobileContactLinkBackground}
+          className="contactLinkContainerBackground mobile"
         ></img>
         <a className="contactLinkSet">
           <svg

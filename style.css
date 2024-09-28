@@ -1576,7 +1576,7 @@
 
 .activeProductProcess .LineDiv .Line {
   height: 80px;
-  animation: productProcessLine 5s ease-in;
+  animation: productProcessLine 10s ease-in;
 }
 
 @keyframes productProcessLine {
@@ -1589,7 +1589,7 @@
 }
 
 .activeProductProcess .LineDiv .activeLine {
-  animation: productProcessActiveLine 5s ease-in;
+  animation: productProcessActiveLine 10s ease-in;
 }
 
 @keyframes productProcessActiveLine {
@@ -1607,6 +1607,10 @@
 
 .activeProductProcess .content p {
   display: block;
+}
+
+.mobileProductProcessContent {
+  display: none;
 }
 
 .ProductProcessImg {
@@ -3958,7 +3962,7 @@
   }
 
   .activeProductProcess .LineDiv .Line {
-    animation: mobileProcessLine 5s linear;
+    animation: mobileProcessLine 10s linear;
   }
 
   @keyframes mobileProcessLine {
@@ -3971,7 +3975,7 @@
   }
 
   .activeProductProcess .LineDiv .activeLine {
-    animation: mobileActiveProcessLine 5s linear;
+    animation: mobileActiveProcessLine 10s linear;
   }
 
   @keyframes mobileActiveProcessLine {
@@ -4149,6 +4153,160 @@
     line-height: normal;
   }
 
+  /* Enquiry Page */
+
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .contactFormHeading {
+    padding: 48px 20px;
+    width: 100%;
+    height: 100svh;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contactFormHeading img {
+    padding-bottom: 80px;
+  }
+
+  .contactFormHeading h1 {
+    color: var(--Text-Black-Primary, #101010);
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.2px;
+  }
+
+  .contactFormHeading p {
+    color: var(--Text-Black-text-black-300, #5f5f5f);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .contactForm iframe {
+    padding: 48px 20px;
+  }
+
+  .infoContainerHeading .heading h2 span {
+    color: var(--Orange-Primary, #f39200);
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.64px;
+  }
+
+  .contactFormBelow {
+    display: flex;
+    padding: 48px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  .getInTouch {
+    width: 100%;
+    color: var(--Text-Black-Primary, #101010);
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.64px;
+  }
+
+  .getInTouch span {
+    color: var(--Orange-Primary, #f39200);
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.64px;
+  }
+
+  .contactLinkContainer {
+    width: 100%;
+    height: 431px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .contactLinkContainerBackground {
+    width: 100%;
+    height: 100%;
+  }
+
+  .contactLinkSet {
+    height: auto;
+  }
+
+  /* Contact page */
+
+  .contactFormContainer {
+    padding: 48px 20px;
+    flex-direction: column-reverse;
+  }
+
+  .contactFormImgContainer {
+    width: 100%;
+    padding-top: 48px;
+    height: auto;
+  }
+
+  .contactFormImgText {
+    height: auto;
+    padding: 20px 16px;
+  }
+
+  .contactFormImgText h2 {
+    color: #fff;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .contactFormImgBackground {
+    height: 473px;
+  }
+
+  .contactFormImg {
+    width: 100%;
+    height: 473px;
+  }
+
+  .contactFormImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .contactFormImgText p {
+    color: #fff;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
   /* Footer */
   .footer {
     display: flex;
@@ -4156,6 +4314,11 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 40px;
+  }
+
+  .contactFormDiv {
+    width: 100%;
+    height: auto;
   }
 
   .footerLinkLogo {

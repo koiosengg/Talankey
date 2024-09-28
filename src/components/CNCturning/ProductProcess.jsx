@@ -36,7 +36,7 @@ function ProductProcess() {
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((prevIndex) => (prevIndex + 1) % processData.length);
-    }, 5000);
+    }, 10000);
 
     return () => clearInterval(interval);
   }, [activeIndex, processData.length]);
