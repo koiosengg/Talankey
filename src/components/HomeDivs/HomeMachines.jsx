@@ -1,8 +1,10 @@
 import React from "react";
-import TestIMG1 from "../../assets/Contact/Talankey CNC Milling.png";
-import TestIMG2 from "../../assets/Contact/Talankey CNC Turning.png";
-import TestIMG3 from "../../assets/Contact/Talankey EDM.png";
-import TestIMG4 from "../../assets/Contact/Talankey Laser Cutting and Bending.png";
+import CNC_Turning from "../../assets/Home/Machines/CNC Turning.png";
+import VMC from "../../assets/Home/Machines/VMC.png";
+import LaserCuttingMachine from "../../assets/Home/Machines/Laser Cutting Machine.png";
+import CNC_BendingMachine from "../../assets/Home/Machines/CNC Bending Machine.png";
+import ThreeD from "../../assets/Home/Machines/ThreeD.png"
+import EDM from "../../assets/Home/Machines/EDM.png"
 
 function HomeMachines() {
   return (
@@ -14,7 +16,7 @@ function HomeMachines() {
           <div className="headingLine"></div>
         </div>
         <div className="heading">
-          <h2>Technology Behind the Craft</h2>
+          <h2>Infrastructure Behind the Craft</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
             arcu. Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
@@ -25,55 +27,46 @@ function HomeMachines() {
         <div className="homeMachineSet">
           <div className="Line"></div>
           <div className="content">
-            <h4>
-              Cutting & <br /> Bending Machine
-            </h4>
-            <img src={TestIMG2}></img>
+            <h4>CNC Turning</h4>
+            <img src={CNC_Turning}></img>
+          </div>
+        </div>
+        <div className="homeMachineSet">
+          <div className="Line"></div>
+          <div className="content">
+            <h4>Vertical Machining Center ( VMC )</h4>
+            <img src={VMC}></img>
+          </div>
+        </div>
+        <div className="homeMachineSet">
+          <div className="Line"></div>
+          <div className="content">
+            <h4>Laser Cutting Machine</h4>
+            <img src={LaserCuttingMachine}></img>
+          </div>
+        </div>
+        <div className="homeMachineSet">
+          <div className="Line"></div>
+          <div className="content">
+            <h4>CNC Bending Machine</h4>
+            <img src={CNC_BendingMachine}></img>
+          </div>
+        </div>
+        <div className="homeMachineSet">
+          <div className="Line"></div>
+          <div className="content">
+            <h4>3D Scanning & Printing</h4>
+            <img src={ThreeD}></img>
           </div>
         </div>
         <div className="homeMachineSet">
           <div className="Line"></div>
           <div className="content">
             <h4>
-              Cutting & <br /> Bending Machine
+              EDM Wire Cutting &
+Sparking
             </h4>
-            <img src={TestIMG3}></img>
-          </div>
-        </div>
-        <div className="homeMachineSet">
-          <div className="Line"></div>
-          <div className="content">
-            <h4>
-              Cutting & <br /> Bending Machine
-            </h4>
-            <img src={TestIMG1}></img>
-          </div>
-        </div>
-        <div className="homeMachineSet">
-          <div className="Line"></div>
-          <div className="content">
-            <h4>
-              Cutting & <br /> Bending Machine
-            </h4>
-            <img src={TestIMG1}></img>
-          </div>
-        </div>
-        <div className="homeMachineSet">
-          <div className="Line"></div>
-          <div className="content">
-            <h4>
-              Cutting & <br /> Bending Machine
-            </h4>
-            <img src={TestIMG4}></img>
-          </div>
-        </div>
-        <div className="homeMachineSet">
-          <div className="Line"></div>
-          <div className="content">
-            <h4>
-              Cutting & <br /> Bending Machine
-            </h4>
-            <img src={TestIMG3}></img>
+            <img src={EDM}></img>
           </div>
         </div>
       </div>

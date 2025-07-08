@@ -12,11 +12,13 @@ function HomeBenefits() {
         </div>
         <div className="heading">
           <h2>
-            Key Benefits of Talankey <br /> Machine Manufacturing
+            Key Benefits of Talankey <br />
+            Manufacturing Services
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu. Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
+            Precision, reliability, and efficiency -Talankey delivers top-tier
+            manufacturing solutions in Bangalore, making us your one-stop
+            Manufacturing partner.
           </p>
         </div>
       </div>
@@ -28,7 +30,7 @@ function HomeBenefits() {
           </div>
           <div className="content">
             <h4>
-              Technology & <br /> <span>Equipment</span>{" "}
+             Quality & <br /> <span>Accuracy</span>
             </h4>
             <p>
               Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
@@ -46,7 +48,7 @@ function HomeBenefits() {
           </div>
           <div className="content">
             <h4>
-              Technology & <br /> <span>Equipment</span>{" "}
+        Lead Time & <br /> <span>Precision</span>
             </h4>
             <p>
               Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
@@ -64,7 +66,7 @@ function HomeBenefits() {
           </div>
           <div className="content">
             <h4>
-              Technology & <br /> <span>Equipment</span>{" "}
+        Competitive  <br /> <span>Pricing</span>
             </h4>
             <p>
               Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit

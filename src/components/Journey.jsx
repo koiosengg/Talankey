@@ -33,17 +33,17 @@ function Journey() {
 
   const duration = 2000; // Set total duration for the count-up animation
 
-  const companiesServed = useCountUp(56, inView, duration);
+  const companiesServed = useCountUp(30, inView, duration);
   const yearsInBusiness = useCountUp(7, inView, duration);
-  const productsSold = useCountUp(138, inView, duration);
-  const countriesShipped = useCountUp(8, inView, duration);
+  const productsSold = useCountUp(250, inView, duration);
+  const countriesShipped = useCountUp(300, inView, duration);
 
   return (
     <div className="journey" ref={journeyRef}>
       <div className="heading">
         <h2>
-          Our Journey
-          <br /> In Numbers
+     Our Journey 
+          <br /><span>so Far</span> 
         </h2>
         <p>
           Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
@@ -52,7 +52,7 @@ function Journey() {
       </div>
       <div className="journeySetContainer">
         <div className="journeySet">
-          <span>{companiesServed}</span>
+          <span>{companiesServed}+</span>
           <p>Companies Served</p>
         </div>
         <div className="journeySet">
@@ -60,12 +60,13 @@ function Journey() {
           <p>Years in Business</p>
         </div>
         <div className="journeySet">
-          <span>{productsSold}</span>
-          <p>Unique Products Sold</p>
+          <span>{productsSold}+</span>
+          <p>Unique Products Manufactured</p>
         </div>
         <div className="journeySet">
-          <span>0{countriesShipped}</span>
-          <p>Countries Shipped</p>
+          <span>{countriesShipped}+</span>
+          <p>Daily Part 
+Production</p>
         </div>
       </div>
     </div>

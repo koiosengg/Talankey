@@ -9,6 +9,7 @@ import HomeSectors from "./HomeDivs/HomeSectors";
 import Gallery from "./Gallery";
 import Testimonials from "./Testimonials";
 import EnquireDiv from "./EnquiryDiv";
+import LogoMarquee from "./LogoMarquee";
 
 function Home({ setHomeNavbar }) {
   const homeBannerRef = useRef(null);
@@ -44,13 +45,14 @@ function Home({ setHomeNavbar }) {
         <HomeBanner />
       </div>
       <HomeBenefits />
+      <HomeStory />
       <HomeProducts />
       <Journey />
       <HomeMachines />
-      <HomeStory />
       <HomeSectors />
       <Gallery />
       <Testimonials />
+      <LogoMarquee />
       <EnquireDiv />
     </div>
   );

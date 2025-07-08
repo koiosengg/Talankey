@@ -71,7 +71,7 @@
 }
 
 .navbarLinksContainer a p {
-  color: var(--Grey-Primary, #777);
+  color: var(--Text-Black-text-black-300, #5f5f5f);
   font-family: Inter;
   font-size: 14px;
   font-style: normal;
@@ -79,12 +79,16 @@
   line-height: normal;
 }
 
+.navbarLinksContainer a:last-child p {
+  color: var(--Linear-Orange-linear-orange-300, #f69854);
+}
+
 .navbarLinksContainer a svg {
   transition: all 0.3s;
 }
 
 .navbarLinksContainer a:hover p {
-  color: var(--Text-Black-Primary, #101010);
+  color: var(--Linear-Orange-Primary, #f26600);
 }
 
 .navbarLinksContainer a:hover svg {
@@ -128,7 +132,7 @@
 }
 
 .navbarDropdownContainer:hover .navbarDropdownHeading p {
-  color: var(--Text-Black-Primary, #101010);
+  color: var(--Linear-Orange-Primary, #f26600);
 }
 
 .navbarDropdownContainer:hover .navbarDropdownHeading svg {
@@ -136,7 +140,7 @@
 }
 
 .navbarDropdownContainer:hover .navbarDropdownHeading svg path {
-  fill: #101010;
+  fill: #f26600;
 }
 
 @media screen and (min-width: 1200px) {
@@ -149,25 +153,39 @@
   }
 
   .homeNavbar .navbarLinksContainer a p {
-    color: var(--Grey-grey-50, #f1f1f1);
+    color: var(--Text-Black-Primary, #101010);
     font-family: Inter;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    transition: all 0.3s;
+  }
+
+  .homeNavbar .navbarLinksContainer a:hover p {
+    color: #fff;
   }
 
   .homeNavbar .navbarDropdownHeading svg path {
-    fill: #f1f1f1;
+    fill: #101010;
   }
 
   .homeNavbar .navbarDropdownHeading p {
-    color: var(--Grey-grey-50, #f1f1f1);
+    color: var(--Text-Black-Primary, #101010);
     font-family: Inter;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+  }
+
+  .homeNavbar .navbarDropdownContainer:hover p{
+    color: #fff;
+  }
+
+  
+  .homeNavbar .navbarDropdownContainer:hover svg path{
+    fill: #fff;
   }
 
   .homeNavbar .navbarContact:hover {
@@ -338,7 +356,7 @@
 
 .HomeBannerText {
   display: flex;
-  width: 891px;
+  width: 100%;
   height: fit-content;
   flex-direction: column;
   justify-content: flex-end;
@@ -359,7 +377,7 @@
 }
 
 .HomeBannerText .heading {
-  width: 891px;
+  max-width: 891px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -598,14 +616,17 @@
 
 .HomeProducts .infoContainerDiv {
   width: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 40px;
 }
 
 .homeProductSet {
-  width: 100%;
+  width: calc(50% - 20px);
   height: 474px;
+  flex-shrink: 0;
   position: relative;
   display: flex;
   align-items: center;
@@ -833,6 +854,7 @@
   width: 100%;
   height: 248px;
   object-fit: contain;
+  object-position: bottom;
 }
 
 .homeMachineSet:hover {
@@ -849,6 +871,7 @@
 .HomeStory .infoContainerDiv {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 40px;
   align-self: stretch;
 }
@@ -912,7 +935,8 @@
 }
 
 .HomeStory .infoContainerDiv img {
-  width: 60%;
+ object-fit: cover;
+  max-height: 540px;
 }
 
 .HomeSectors .infoContainerDiv {
@@ -1860,6 +1884,10 @@
   letter-spacing: -1.2px;
 }
 
+.journey .heading h2 span{
+  color: var(--Text-Black-text-black-300, #5F5F5F);
+}
+
 .journey .heading p {
   color: var(--Text-Black-text-black-300, #5f5f5f);
   font-family: Inter;
@@ -2231,6 +2259,36 @@
   left: 50%;
   transform: translateX(-50%);
   z-index: 10;
+}
+
+/* Logo Marquee */
+
+.logoMarquee-wrapper{
+   max-width: 100%;
+  overflow: hidden;
+}
+
+.logoMarquee-marquee{
+white-space: nowrap;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  gap: 84px;
+  animation: logoMarquee 15s linear infinite;
+}
+
+@keyframes logoMarquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.logoMarquee-marquee img{
+  height: 45px;
+  object-fit: cover;
 }
 
 /* Enquire Div */
@@ -2750,7 +2808,7 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .footerLinkSet {
@@ -3267,6 +3325,10 @@
     font-weight: 600;
     line-height: normal;
   }
+
+  .journey .heading h2 span{
+  color: var(--Text-Black-text-black-300, #5F5F5F);
+}
 
   .journey .heading p {
     color: var(--Text-Black-text-black-300, #5f5f5f);

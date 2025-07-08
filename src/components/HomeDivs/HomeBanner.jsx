@@ -14,11 +14,12 @@ function HomeBanner() {
         <div className="heading">
           <h1>Precision Engineering for Tomorrow's Innovations</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu. Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
+            Bridging the gap between concept and creation, we deliver
+            precision-engineered solutions that drive innovation and efficiency
+            in every industry.
           </p>
         </div>
-        <Link className="HomeBannerButton">
+        <Link to="#" className="HomeBannerButton">
           <p>Let’s Get Started</p>
           <svg
             xmlns="http://www.w3.org/2000/svg"

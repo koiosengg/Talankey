@@ -61,7 +61,7 @@ function Footer() {
             <div className="footerLinkColumn">
               <a>Home</a>
               <a>About Us</a>
-              <a>Enquiry Form</a>
+              <a>Request for Quotation</a>
               <a>Contact</a>
             </div>
           </div>
@@ -70,8 +70,12 @@ function Footer() {
             <div className="footerLinkColumn">
               <a>CNC Mining</a>
               <a>CNC Turning</a>
-              <a>Laser Cutting <br className="mobile"/> & Bending</a>
+              <a>
+                Laser Cutting <br className="mobile" /> & Bending
+              </a>
               <a>EDM’s</a>
+              <a>3D Scanning</a>
+              <a>3D Printing</a>
             </div>
           </div>
           <div className="footerLinkSet">
@@ -83,21 +87,15 @@ function Footer() {
               <a>FAQ</a>
             </div>
           </div>
-          <div className="footerLinkSet">
-            <h4>Company</h4>
-            <div className="footerLinkColumn">
-              <a>Home</a>
-              <a>About Us</a>
-              <a>Enquiry Form</a>
-              <a>Contact</a>
-            </div>
-          </div>
         </div>
       </div>
       <div className="footerCopyrigth">
-        <p>2024 All rights reserved</p>
+        <p>2025 All rights reserved</p>
         <p>
-          Crafted by <a href="https://koiosengg.com/" target="_blank">The Koios Studio</a>{" "}
+          Crafted by{" "}
+          <a href="https://koiosengg.com/" target="_blank">
+            The Koios Studio
+          </a>{" "}
         </p>
       </div>
     </div>

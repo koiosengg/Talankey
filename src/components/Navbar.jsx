@@ -210,13 +210,61 @@ function Navbar({ homeNavbar }) {
                     </span>
                   </div>
                 </Link>
+                <Link to="/" className="navbarDropdownSet">
+                  <img src={CNCMillingServices} />
+                  <div className="navbarDropdownText">
+                    <div className="heading">
+                      <span>3D Scanning</span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="10"
+                        height="11"
+                        viewBox="0 0 10 11"
+                        fill="none"
+                      >
+                        <path
+                          d="M8.08467 6H0V5H8.08467L4.28717 1.2025L5 0.5L10 5.5L5 10.5L4.28717 9.7975L8.08467 6Z"
+                          fill="#1C1B1F"
+                        />
+                      </svg>
+                    </div>
+                    <span>
+                      Lorem ipsum dolor sit amet consectetur. Sed leo urna
+                      vestibulum
+                    </span>
+                  </div>
+                </Link>
+                <Link to="/" className="navbarDropdownSet">
+                  <img src={EDM} />
+                  <div className="navbarDropdownText">
+                    <div className="heading">
+                      <span>3D Printing</span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="10"
+                        height="11"
+                        viewBox="0 0 10 11"
+                        fill="none"
+                      >
+                        <path
+                          d="M8.08467 6H0V5H8.08467L4.28717 1.2025L5 0.5L10 5.5L5 10.5L4.28717 9.7975L8.08467 6Z"
+                          fill="#1C1B1F"
+                        />
+                      </svg>
+                    </div>
+                    <span>
+                      Lorem ipsum dolor sit amet consectetur. Sed leo urna
+                      vestibulum
+                    </span>
+                  </div>
+                </Link>
               </div>
             </div>
             <Link to="/about">
               <p>About Us</p>
             </Link>
             <Link to="/enquiry">
-              <p>Enquiry Form</p>
+              <p>Request For Qoutation</p>
             </Link>
           </div>
           <Link to="/contact" className="navbarContact">
