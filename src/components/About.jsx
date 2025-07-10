@@ -1,176 +1,32 @@
-import React from "react";
-import AboutBanner from "../assets/About/AboutBanner.svg";
-import AboutBannerBelow from "../assets/About/AboutBannerBelow.svg";
-import MobileAboutBannerBelow from "../assets/About/MobileAboutBannerBelow.svg";
+import React, { useState, useEffect } from "react";
 import AboutTestImg from "../assets/About/Talankey aboutTestImg.jfif";
 import Journey from "./Journey";
 import Gallery from "./Gallery";
 import Marquee from "./Marquee";
 import Testimonials from "./Testimonials";
+import LogoMarquee from "./LogoMarquee";
 import EnquiryDiv from "./EnquiryDiv";
+import Banner from "./About/Banner";
+import MissionVision from "./About/MissionVision";
+import BelowBanner from "./About/BelowBanner";
+import CompanyInfrastructure from "./About/CompanyInfrastructure";
+import Certificate from "./About/Certificate";
+import InstrumentCluster from "./About/InstrumentCluster";
 
 function About() {
   return (
     <div className="About">
-      <div className="productBanner">
-        <img className="aboutProductBanner" src={AboutBanner}></img>
-        <div className="heading">
-          <h1>
-            Building the Future with <br /> Precision and Passion
-          </h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu. Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
-          </p>
-        </div>
-      </div>
-      <div className="aboutBannerBelow">
-        <img src={AboutBannerBelow}></img>
-        <div className="aboutBannerBelowText">
-          <h2>
-            <span style={{ color: "#F39200" }}>
-              Our <span className="bold"> Story, </span>
-            </span>{" "}
-            <br /> Our <span className="bold">Expertise</span>
-          </h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-            ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
-            Commodo senectus morbi faucibusLorem ipsum dolor sit amet
-            consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi
-            faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.
-            Libero lacus nullam sit arcu. Commodo senectus morbi faucibus .
-            Lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit
-            mi. Odio Lorem ipsum dolor sit amet consectetur. Libero lacus nullam
-            sit arcu. Commodo senectus morbi faucibus . Lorem ipsum dolor sit.
-            Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu. gommodo senectus morbi faucibus lectus sit mi. Odio Lorem
-            ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
-            Commodo senectus morbi faucibusLorem ipsum dolor sit amet
-            consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi
-            faucibus lectus sit{" "}
-          </p>
-        </div>
-      </div>
-      <div className="infoContainer mobileAboutBannerBelow mobile">
-        <div className="infoContainerHeading">
-          <div className="subHeading">
-            <div className="headingLine"></div>
-            <p>Our Story</p>
-            <div className="headingLine"></div>
-          </div>
-          <div className="heading">
-            <h2>Company Overview</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-              arcu.<br></br> Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
-            </p>
-          </div>
-        </div>
-        <div className="infoContainerDiv">
-          <img src={MobileAboutBannerBelow}></img>
-          <div className="heading">
-            <h4>About Talankey</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-              arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-              ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
-              Commodo senectus morbi faucibusLorem ipsum dolor sit amet
-              consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi
-              faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet
-              consectetur.dolor sit amet consectetur. Libero lacus nullam sit
-              arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-              ipsum dolor sit amet consectetur.{" "}
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="infoContainer">
-        <div className="infoContainerHeading">
-          <div className="subHeading">
-            <div className="headingLine"></div>
-            <p>Company Infrastructure</p>
-            <div className="headingLine"></div>
-          </div>
-          <div className="heading">
-            <h2>
-              Robust Infrastructure for <br /> Seamless Operations
-            </h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-              arcu.<br></br> Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
-            </p>
-          </div>
-        </div>
-        <div className="infoContainerDiv">
-          <div className="aboutInfoSet">
-            <img src={AboutTestImg}></img>
-            <div className="text">
-              <h3>Lorem Ipsum</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-                arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-                ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
-                Commodo senectus morbi faucibus{" "}
-              </p>
-            </div>
-          </div>
-          <div className="aboutInfoSet">
-            <img src={AboutTestImg}></img>
-            <div className="text">
-              <h3>Lorem Ipsum</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-                arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-                ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
-                Commodo senectus morbi faucibus{" "}
-              </p>
-            </div>
-          </div>
-          <div className="aboutInfoSet">
-            <img src={AboutTestImg}></img>
-            <div className="text">
-              <h3>Lorem Ipsum</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-                arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-                ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
-                Commodo senectus morbi faucibus{" "}
-              </p>
-            </div>
-          </div>
-          <div className="aboutInfoSet">
-            <img src={AboutTestImg}></img>
-            <div className="text">
-              <h3>Lorem Ipsum</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-                arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-                ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
-                Commodo senectus morbi faucibus{" "}
-              </p>
-            </div>
-          </div>
-          <div className="aboutInfoSet">
-            <img src={AboutTestImg}></img>
-            <div className="text">
-              <h3>Lorem Ipsum</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-                arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-                ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
-                Commodo senectus morbi faucibus{" "}
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
+      <Banner />
+      <MissionVision />
+      <BelowBanner />
+      <CompanyInfrastructure />
       <Journey />
+      <Certificate />
+      <InstrumentCluster />
       <Gallery />
       <Marquee />
       <Testimonials />
+      <LogoMarquee />
       <EnquiryDiv />
     </div>
   );
