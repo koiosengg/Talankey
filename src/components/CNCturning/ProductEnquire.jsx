@@ -16,7 +16,7 @@ function ProductEnquire() {
           sit amet consectetur. Libero lacus nullam sit arcu. Commodo{" "}
         </p>
         <Link to="/enquiry" className="productEnquireButton">
-          Enquire Now
+        Request for Annotation
         </Link>
       </div>
     </div>

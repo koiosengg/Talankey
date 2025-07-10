@@ -8,25 +8,37 @@ function ProductProcess() {
   const [activeIndex, setActiveIndex] = useState(0);
   const processData = [
     {
-      title: "Designing & Engineering",
+      title: "Check Manufacturing Feasbility",
       description:
         "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. morbi",
       image: ProductProcess1,
     },
     {
-      title: "Prototyping",
+      title: "Part Design Finalization",
       description:
         "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. morbi",
       image: ProductProcess2,
     },
     {
-      title: "Fabrication and Assembly",
+      title: "Pilot Batch Production",
       description:
         "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. morbi",
       image: ProductProcess3,
     },
     {
-      title: "Testing & Quality Control",
+      title: "Production Batch",
+      description:
+        "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. morbi",
+      image: ProductProcess4,
+    },
+        {
+      title: "Quality Control",
+      description:
+        "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. morbi",
+      image: ProductProcess3,
+    },
+    {
+      title: "Dispatch",
       description:
         "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. morbi",
       image: ProductProcess4,

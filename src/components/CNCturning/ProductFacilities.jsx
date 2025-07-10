@@ -1,6 +1,5 @@
 import React from "react";
-import ProductFacilitiesBackground from "../../assets/CNCturning/ProductFacilitiesBackground.svg";
-import ProductFacilitiesIcon from "../../assets/CNCturning/ProductFacilitiesIcon.svg";
+import AboutTestImg from "../../assets/About/Talankey aboutTestImg.jfif";
 
 function ProductFacilities() {
   return (
@@ -8,145 +7,49 @@ function ProductFacilities() {
       <div className="infoContainerHeading">
         <div className="subHeading">
           <div className="headingLine"></div>
-          <p>Benefits</p>
+          <p>Instrument Cluster</p>
           <div className="headingLine"></div>
         </div>
         <div className="heading">
           <h2>
-            Key Benefits of Talankey <br /> Machine Manufacturing
+            Cluster Features &<br /> Specifications
           </h2>
           <p>
             Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu. Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
+            arcu.<br></br> Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
           </p>
         </div>
       </div>
       <div className="infoContainerDiv">
-        <div className="ProductFacilitieSet">
-          <img
-            src={ProductFacilitiesBackground}
-            className="ProductFacilitiesBackground"
-          ></img>
-          <img
-            src={ProductFacilitiesIcon}
-            className="ProductFacilitiesIcon"
-          ></img>
-          <h4>
-            Testing
-            <br />
-            <span> Facilities</span>
-          </h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-            ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
-            morbi
-          </p>
+        <div className="aboutInfoSet">
+          <img src={AboutTestImg}></img>
+          <div className="text">
+            <span>8 Station bi-directional turret</span>
+            <h3>Smart Plus</h3>
+            <p>Maximum Turning Diameter: 280mm</p>
+            <p>Maximum Turning Length: 308mm</p>
+            <p>Chuck Diameter: 200mm</p>
+          </div>
         </div>
-        <div className="ProductFacilitieSet">
-          <img
-            src={ProductFacilitiesBackground}
-            className="ProductFacilitiesBackground"
-          ></img>
-          <img
-            src={ProductFacilitiesIcon}
-            className="ProductFacilitiesIcon"
-          ></img>
-          <h4>
-            Warehousing &
-            <br />
-            <span> Logistics</span>
-          </h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-            ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
-            morbi
-          </p>
+        <div className="aboutInfoSet">
+          <img src={AboutTestImg}></img>
+          <div className="text">
+            <span>8 Station bi-directional turret</span>
+            <h3>Smarturn</h3>
+            <p>Maximum Turning Diameter: 200mm</p>
+            <p>Maximum Turning Length: 262mm</p>
+            <p>Chuck Diameter: 165mm</p>
+          </div>
         </div>
-        <div className="ProductFacilitieSet">
-          <img
-            src={ProductFacilitiesBackground}
-            className="ProductFacilitiesBackground"
-          ></img>
-          <img
-            src={ProductFacilitiesIcon}
-            className="ProductFacilitiesIcon"
-          ></img>
-          <h4>
-            Testing
-            <br />
-            <span> Facilities</span>
-          </h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-            ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
-            morbi
-          </p>
-        </div>
-        <div className="ProductFacilitieSet">
-          <img
-            src={ProductFacilitiesBackground}
-            className="ProductFacilitiesBackground"
-          ></img>
-          <img
-            src={ProductFacilitiesIcon}
-            className="ProductFacilitiesIcon"
-          ></img>
-          <h4>
-            Custom
-            <br />
-            <span> Fabrications</span>
-          </h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-            ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
-            morbi
-          </p>
-        </div>
-        <div className="ProductFacilitieSet">
-          <img
-            src={ProductFacilitiesBackground}
-            className="ProductFacilitiesBackground"
-          ></img>
-          <img
-            src={ProductFacilitiesIcon}
-            className="ProductFacilitiesIcon"
-          ></img>
-          <h4>
-            Research &
-            <br />
-            <span> Development</span>
-          </h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-            ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
-            morbi
-          </p>
-        </div>
-        <div className="ProductFacilitieSet">
-          <img
-            src={ProductFacilitiesBackground}
-            className="ProductFacilitiesBackground"
-          ></img>
-          <img
-            src={ProductFacilitiesIcon}
-            className="ProductFacilitiesIcon"
-          ></img>
-          <h4>
-            Production
-            <br />
-            <span>Floor</span>
-          </h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-            ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
-            morbi
-          </p>
+        <div className="aboutInfoSet">
+          <img src={AboutTestImg}></img>
+          <div className="text">
+            <span>8 Station bi-directional turret</span>
+            <h3>LL 20T L5</h3>
+            <p>Maximum Turning Diameter: 320mm</p>
+            <p>Maximum Turning Length: 500mm</p>
+            <p>Chuck Diameter: 210mm</p>
+          </div>
         </div>
       </div>
     </div>

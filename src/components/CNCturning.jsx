@@ -9,6 +9,7 @@ import ProductBenefits from "./CNCturning/ProductBenefits";
 import Marquee from "./Marquee";
 import Gallery from "./Gallery";
 import Testimonials from "./Testimonials";
+import LogoMarquee from "./LogoMarquee";
 import EnquiryDiv from "./EnquiryDiv";
 
 function CNCturning() {
@@ -24,6 +25,7 @@ function CNCturning() {
       <Marquee />
       <Gallery />
       <Testimonials />
+      <LogoMarquee />
       <EnquiryDiv />
     </div>
   );
