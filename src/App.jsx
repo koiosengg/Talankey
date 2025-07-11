@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import CNCturning from "./components/CNCturning";
 import CNCmilling from "./components/CNCmilling";
+import LaserCuttingAndBending from "./components/LaserCuttingAndBending";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Enquiry from "./components/Enquiry";
@@ -23,6 +24,10 @@ function App() {
           <Route index element={<Home setHomeNavbar={setHomeNavbar} />} />
           <Route path="CNCturning" element={<CNCturning />} />
           <Route path="CNCmilling" element={<CNCmilling />} />
+          <Route
+            path="LaserCuttingAndBending"
+            element={<LaserCuttingAndBending />}
+          />
           <Route path="contact" element={<Contact />} />
           <Route path="about" element={<About />} />
           <Route path="enquiry" element={<Enquiry />} />
