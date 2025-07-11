@@ -162,7 +162,7 @@ function Navbar({ homeNavbar }) {
                     </span>
                   </div>
                 </Link>
-                <Link to="/" className="navbarDropdownSet">
+                <Link to="/CNCmilling" className="navbarDropdownSet">
                   <img src={CNCMillingServices} />
                   <div className="navbarDropdownText">
                     <div className="heading">

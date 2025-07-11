@@ -1565,7 +1565,7 @@
 
 .activeProductProcess .LineDiv .Line {
   height: 80px;
-  animation: productProcessLine 10s ease-in;
+  animation: productProcessLine 7.5s ease-in;
 }
 
 @keyframes productProcessLine {
@@ -1578,7 +1578,7 @@
 }
 
 .activeProductProcess .LineDiv .activeLine {
-  animation: productProcessActiveLine 10s ease-in;
+  animation: productProcessActiveLine 7.5s ease-in;
 }
 
 @keyframes productProcessActiveLine {
