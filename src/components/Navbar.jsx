@@ -186,7 +186,7 @@ function Navbar({ homeNavbar }) {
                     </span>
                   </div>
                 </Link>
-                <Link to="/" className="navbarDropdownSet">
+                <Link to="/EDM" className="navbarDropdownSet">
                   <img src={EDM} />
                   <div className="navbarDropdownText">
                     <div className="heading">
