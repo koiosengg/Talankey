@@ -183,10 +183,6 @@
     color: #fff;
   }
 
-  .homeNavbar .navbarDropdownContainer:hover svg path {
-    fill: #fff;
-  }
-
   .homeNavbar .navbarContact:hover {
     background: none;
   }
@@ -218,7 +214,7 @@
   text-decoration: none;
 }
 
-.navbarDropdownContainer a :hover .heading svg {
+.navbarDropdownContainer a:hover .heading svg {
   width: 20px;
   transform: rotate(0deg);
 }
@@ -813,9 +809,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  gap: 40px;
   background: var(--White, #fff);
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.08);
   transition: all 0.3s;
+  overflow: hidden;
 }
 
 .homeMachineSet .Line {
@@ -834,7 +832,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 40px;
 }
 
 .homeMachineSet .content h4 {
@@ -849,7 +847,6 @@
 }
 
 .homeMachineSet .content img {
-  padding: 0px 40px;
   width: 100%;
   height: 248px;
   object-fit: contain;
@@ -1711,6 +1708,49 @@
   height: 452px;
   width: 50%;
   object-fit: cover;
+}
+
+.threeD-vision-container {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.visionImg {
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.circle-scanner {
+  position: absolute;
+  z-index: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -70%);
+  animation: rotate360 5s linear infinite; /* Add animation here */
+}
+
+@keyframes rotate360 {
+  from {
+    transform: translate(-50%, -70%) rotate(0deg); /* Start rotation */
+  }
+  to {
+    transform: translate(-50%, -70%) rotate(360deg); /* End rotation */
+  }
+}
+
+.ProductMachines .infoContainerDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ProductMachines .homeMachineSet {
+  width: calc(100% / 3 - 26.66px);
+  flex-shrink: 0;
 }
 
 /* About us */

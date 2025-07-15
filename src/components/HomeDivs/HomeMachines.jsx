@@ -3,8 +3,8 @@ import CNC_Turning from "../../assets/Home/Machines/CNC Turning.png";
 import VMC from "../../assets/Home/Machines/VMC.png";
 import LaserCuttingMachine from "../../assets/Home/Machines/Laser Cutting Machine.png";
 import CNC_BendingMachine from "../../assets/Home/Machines/CNC Bending Machine.png";
-import ThreeD from "../../assets/Home/Machines/ThreeD.png"
-import EDM from "../../assets/Home/Machines/EDM.png"
+import ThreeD from "../../assets/Home/Machines/ThreeD.png";
+import EDM from "../../assets/Home/Machines/EDM.png";
 
 function HomeMachines() {
   return (
@@ -62,10 +62,7 @@ function HomeMachines() {
         <div className="homeMachineSet">
           <div className="Line"></div>
           <div className="content">
-            <h4>
-              EDM Wire Cutting &
-Sparking
-            </h4>
+            <h4>EDM Wire Cutting & Sparking</h4>
             <img src={EDM}></img>
           </div>
         </div>

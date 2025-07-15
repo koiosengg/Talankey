@@ -210,7 +210,7 @@ function Navbar({ homeNavbar }) {
                     </span>
                   </div>
                 </Link>
-                <Link to="/" className="navbarDropdownSet">
+                <Link to="/3D_Scanning" className="navbarDropdownSet">
                   <img src={CNCMillingServices} />
                   <div className="navbarDropdownText">
                     <div className="heading">

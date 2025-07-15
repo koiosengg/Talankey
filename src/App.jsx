@@ -7,6 +7,7 @@ import CNCturning from "./components/CNCturning";
 import CNCmilling from "./components/CNCmilling";
 import LaserCuttingAndBending from "./components/LaserCuttingAndBending";
 import EDM from "./components/EDM";
+import ThreeDscanning from "./components/ThreeDscanning";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Enquiry from "./components/Enquiry";
@@ -30,6 +31,7 @@ function App() {
             element={<LaserCuttingAndBending />}
           />
           <Route path="EDM" element={<EDM />} />
+          <Route path="3D_Scanning" element={<ThreeDscanning />} />
           <Route path="contact" element={<Contact />} />
           <Route path="about" element={<About />} />
           <Route path="enquiry" element={<Enquiry />} />
