@@ -1,8 +1,8 @@
 import React from "react";
-import BannerBackground from "../../assets/ThreeDscanning/BannerBackground.svg";
-import MobileBannerBackground from "../../assets/ThreeDscanning/MobileBannerBackground.svg";
-import BannerCenter from "../../assets/ThreeDscanning/BannerCenter.svg";
-import BannerWheel from "../../assets/ThreeDscanning/BannerWheel.svg";
+import BannerBackground from "../../assets/ThreeDprinting/BannerBackground.svg";
+import MobileBannerBackground from "../../assets/ThreeDprinting/MobileBannerBackground.svg";
+import BannerCenter from "../../assets/ThreeDprinting/BannerCenter.svg";
+import BannerWheel from "../../assets/ThreeDprinting/BannerWheel.svg";
 
 function ProductBanner() {
   return (
@@ -14,7 +14,7 @@ function ProductBanner() {
         <img src={BannerWheel} className="BannerWheel"></img>
       </div>
       <div className="heading">
-        <h1>3D Scanning Services</h1>
+        <h1>3D Printing Services</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
           Commodo senectus morbi faucibus lectus sit mi. Odio

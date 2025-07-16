@@ -138,7 +138,10 @@ function Navbar({ homeNavbar }) {
                     </span>
                   </div>
                 </Link>
-                <Link to="/LaserCuttingAndBending" className="navbarDropdownSet">
+                <Link
+                  to="/LaserCuttingAndBending"
+                  className="navbarDropdownSet"
+                >
                   <img src={Laser} />
                   <div className="navbarDropdownText">
                     <div className="heading">
@@ -234,7 +237,7 @@ function Navbar({ homeNavbar }) {
                     </span>
                   </div>
                 </Link>
-                <Link to="/" className="navbarDropdownSet">
+                <Link to="/3D_Printing" className="navbarDropdownSet">
                   <img src={EDM} />
                   <div className="navbarDropdownText">
                     <div className="heading">
