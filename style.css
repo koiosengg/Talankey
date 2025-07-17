@@ -2871,12 +2871,12 @@
 }
 
 .contactLinkContainer {
-  width: 60%;
+  width: 80%;
   height: 255px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 53px;
+  gap: 40px;
   position: relative;
 }
 
@@ -2888,6 +2888,7 @@
 }
 
 .contactLinkSet {
+  width: 100%;
   text-decoration: none;
   display: flex;
   flex-direction: column;
@@ -2895,7 +2896,6 @@
   justify-content: flex-start;
   gap: 16px;
   z-index: 1;
-  height: 125px;
   cursor: pointer;
 }
 
@@ -2937,11 +2937,41 @@
       rgba(255, 255, 255, 0.5) 100%
     ),
     #fbddb0;
+  align-items: center;
 }
 
 .Enquiry .infoContainer img {
   width: 100%;
   object-fit: cover;
+}
+
+.Enquiry .infoContainer .enquireInfo {
+  display: flex;
+  width: 579px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.Enquiry .infoContainer .enquireInfoSet {
+  width: 100%;
+  display: flex;
+  padding: 16px 70px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  text-align: center;
+  border-radius: 100px;
+  background: var(--Orange-orange-100, #fbddb0);
+  color: var(--Text-Black-text-black-300, #5f5f5f);
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 /* footer */

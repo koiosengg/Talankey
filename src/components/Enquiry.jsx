@@ -20,7 +20,6 @@ function Enquiry() {
             arcu. Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
           </p>
         </div>
-        <JotFroms />
       </div>
       <div className="infoContainer">
         <div className="infoContainerHeading">
@@ -41,7 +40,18 @@ function Enquiry() {
         </div>
         <img src={EnquiryInfoContainer} className="notMobile"></img>
         <img src={MobileEnquiryInfoContainer} className="mobile"></img>
+        <div className="enquireInfo">
+          <div className="enquireInfoSet">
+            Kindly upload pdf drawings with tolerance for us to decide the
+            process and quote accurately.
+          </div>
+          <div className="enquireInfoSet">
+            Kindly specify final finish or surface treatment required
+            foraccurate manufacturing process.
+          </div>
+        </div>
       </div>
+      <JotFroms />
       <GetInTouch />
     </div>
   );

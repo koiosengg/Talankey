@@ -1,5 +1,5 @@
 import React from "react";
-import ContactLinkBackground from "/GetInTouch/ContactLinkBackground.svg";
+import ContactLinkBackground from "/GetInTouch/ContactLinkBackground.png";
 import MobileContactLinkBackground from "/GetInTouch/MobileContactLinkBackground.svg";
 
 function GetInTouch() {
@@ -32,7 +32,7 @@ function GetInTouch() {
           </svg>
           <div className="heading">
             <p>Mail Us</p>
-            <span>Info@talenky.com</span>
+            <span>sreenidhiturners@gmail.com</span>
           </div>
         </a>
         <a className="contactLinkSet">
@@ -51,8 +51,9 @@ function GetInTouch() {
           <div className="heading">
             <p>Visit Us</p>
             <span>
-              Rajaji nagar,
-              <br /> Bangalore Urban <br /> - 576783
+              Basaveshwara Industrial Estate, Rajagopalnagar, Peenya Industrial
+              Area
+              <br /> Bangalore - 576783
             </span>
           </div>
         </a>
@@ -71,7 +72,7 @@ function GetInTouch() {
           </svg>
           <div className="heading">
             <p>Call Us</p>
-            <span>+91 90877889787</span>
+            <span>+91 9986 195976</span>
           </div>
         </a>
       </div>
