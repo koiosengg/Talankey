@@ -14,7 +14,7 @@ function ProductBanner() {
         <img src={BannerWheel} className="BannerWheel"></img>
       </div>
       <div className="heading">
-        <h1>3D Printing Services</h1>
+        <h1>3D Sacnning Services</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
           Commodo senectus morbi faucibus lectus sit mi. Odio

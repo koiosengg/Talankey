@@ -78,12 +78,12 @@ function HomeProducts() {
             <img src={TestImg}></img>
           </div>
         </Link>
-        <Link to="/about" className="homeProductSet">
+        <Link to="/CNCmilling" className="homeProductSet">
           <div className="HomeProductBackground1"></div>
           <div className="text">
             <div className="info">
               <h4>
-                CNC Turning <span>Services</span>{" "}
+                CNC Milling <span>Services</span>{" "}
               </h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
@@ -134,12 +134,12 @@ function HomeProducts() {
             <img src={TestImg}></img>
           </div>
         </Link>
-        <Link to="/about" className="homeProductSet">
+        <Link to="/LaserCuttingAndBending" className="homeProductSet">
           <div className="HomeProductBackground1"></div>
           <div className="text">
             <div className="info">
               <h4>
-                CNC Turning <span>Services</span>{" "}
+                Laser Cutting <br /> <span>& Bending</span>
               </h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
@@ -190,12 +190,12 @@ function HomeProducts() {
             <img src={TestImg}></img>
           </div>
         </Link>
-        <Link to="/about" className="homeProductSet">
+        <Link to="/EDM" className="homeProductSet">
           <div className="HomeProductBackground1"></div>
           <div className="text">
             <div className="info">
               <h4>
-                CNC Turning <span>Services</span>{" "}
+                EDM<span>Services</span>{" "}
               </h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
@@ -246,7 +246,7 @@ function HomeProducts() {
             <img src={TestImg}></img>
           </div>
         </Link>
-        <Link to="/about" className="homeProductSet">
+        <Link to="/3D_scanning" className="homeProductSet">
           <div className="HomeProductBackground1"></div>
           <div className="text">
             <div className="info">
@@ -302,7 +302,7 @@ function HomeProducts() {
             <img src={TestImg}></img>
           </div>
         </Link>
-        <Link to="/about" className="homeProductSet">
+        <Link to="/3D_printing" className="homeProductSet">
           <div className="HomeProductBackground1"></div>
           <div className="text">
             <div className="info">

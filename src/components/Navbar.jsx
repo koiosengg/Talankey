@@ -359,7 +359,7 @@ function Navbar({ homeNavbar }) {
                 fill="none"
                 style={{
                   transform: isOpen ? "rotate(-90deg)" : "rotate(90deg)",
-                  transition: "transform 0.3s ease",
+                  transition: "transform 0.3s ease", position:"relative",right:"4px"
                 }}
               >
                 <path
@@ -378,7 +378,7 @@ function Navbar({ homeNavbar }) {
             >
               <Link
                 to="/CNCturning"
-                onClick={toggleDropdown}
+                onClick={handleLinkClick}
                 className="mobileNavbarDropdownSet"
               >
                 <img src={CNCTurning} alt="CNC Turning"></img>
@@ -391,8 +391,8 @@ function Navbar({ homeNavbar }) {
                 </div>
               </Link>
               <Link
-                to="/CNCturning"
-                onClick={toggleDropdown}
+                to="/CNCmilling"
+                onClick={handleLinkClick}
                 className="mobileNavbarDropdownSet"
               >
                 <img src={CNCMillingServices} alt="CNC Milling"></img>
@@ -405,8 +405,8 @@ function Navbar({ homeNavbar }) {
                 </div>
               </Link>
               <Link
-                to="/CNCturning"
-                onClick={toggleDropdown}
+                to="/LaserCuttingAndBending"
+                onClick={handleLinkClick}
                 className="mobileNavbarDropdownSet"
               >
                 <img src={Laser} alt="Laser Cutting"></img>
@@ -419,13 +419,41 @@ function Navbar({ homeNavbar }) {
                 </div>
               </Link>
               <Link
-                to="/CNCturning"
-                onClick={toggleDropdown}
+                to="/EDM"
+                onClick={handleLinkClick}
                 className="mobileNavbarDropdownSet"
               >
                 <img src={EDM} alt="EDM Services"></img>
                 <div className="content">
                   <h4>EDM Services</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Sed leo urna
+                    vestibulum
+                  </p>
+                </div>
+              </Link>
+              <Link
+                to="/3D_Scanning"
+                onClick={handleLinkClick}
+                className="mobileNavbarDropdownSet"
+              >
+                <img src={EDM} alt="EDM Services"></img>
+                <div className="content">
+                  <h4>3D Sacnning</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Sed leo urna
+                    vestibulum
+                  </p>
+                </div>
+              </Link>
+              <Link
+                to="/3D_Printing"
+                onClick={handleLinkClick}
+                className="mobileNavbarDropdownSet"
+              >
+                <img src={EDM} alt="EDM Services"></img>
+                <div className="content">
+                  <h4>3D Printing</h4>
                   <p>
                     Lorem ipsum dolor sit amet consectetur. Sed leo urna
                     vestibulum
@@ -458,7 +486,7 @@ function Navbar({ homeNavbar }) {
             onClick={toggleMobileNav}
             className="mobileNavbarLinkSet"
           >
-            <p>Enquiry Form</p>
+            <p>Request For Qoutation</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="8"
