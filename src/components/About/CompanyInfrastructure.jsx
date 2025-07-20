@@ -12,11 +12,11 @@ function CompanyInfrastructure() {
           </div>
           <div className="heading">
             <h2>
-              Robust Infrastructure for <br /> Seamless Operations
+              Robust Infrastructure for <br className='notMobile' /> Seamless Operations
             </h2>
             <p>
               Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-              arcu.<br></br> Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
+              arcu.<br className='notMobile'/> Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
             </p>
           </div>
         </div>

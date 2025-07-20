@@ -3213,23 +3213,22 @@
     transform: translateX(100%);
     animation: slideOut 0.3s forwards;
   }
-.mobileNavbarLinks {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
-  align-self: stretch;
-  overflow: scroll;
-  scrollbar-width: none; 
-  -ms-overflow-style: none; 
-  scroll-behavior: smooth;
-}
+  .mobileNavbarLinks {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    scroll-behavior: smooth;
+  }
 
-.mobileNavbarLinks::-webkit-scrollbar {
-  display: none; 
-}
-
+  .mobileNavbarLinks::-webkit-scrollbar {
+    display: none;
+  }
 
   .mobileNavbarLinkSetDropDown {
     display: flex;
@@ -3550,7 +3549,7 @@
     gap: 40px;
   }
 
-  .journey .heading{
+  .journey .heading {
     width: 100%;
   }
 
@@ -4153,7 +4152,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    flex-wrap: nowrap;
     gap: 32px;
+  }
+
+  .ProductFacilities .aboutInfoSet {
+    width: 100%;
+    flex-shrink: 0;
+    flex-basis: 100%;
   }
 
   .ProductFacilitieSet h4 {
@@ -4265,7 +4271,7 @@
   }
 
   .activeProductProcess .LineDiv .Line {
-    animation: mobileProcessLine 10s linear;
+    animation: mobileProcessLine 7.5s linear;
   }
 
   @keyframes mobileProcessLine {
@@ -4278,7 +4284,7 @@
   }
 
   .activeProductProcess .LineDiv .activeLine {
-    animation: mobileActiveProcessLine 10s linear;
+    animation: mobileActiveProcessLine 7.5s linear;
   }
 
   @keyframes mobileActiveProcessLine {
@@ -4317,12 +4323,12 @@
     line-height: normal;
   }
 
-  .mobileNumberSet:nth-child(4) .LineDiv {
+  .mobileNumberSet:last-child .LineDiv {
     display: none;
   }
 
-  .mobileNumberSet:nth-child(4) {
-    width: 0;
+  .mobileNumberSet:last-child.activeProductProcess .LineDiv {
+    display: flex;
   }
 
   .ProductPortfolio {
@@ -4403,14 +4409,28 @@
     padding: 0px 40px;
   }
 
+  .about-mission-vision {
+    display: flex;
+    padding: 48px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+  }
+
   .About .infoContainerDiv {
     flex-wrap: nowrap;
     overflow-x: scroll;
   }
 
   .aboutInfoSet {
-    width: 80%;
+    width: 90%;
     flex-shrink: 0;
+    flex-basis: 90%;
+  }
+
+  .aboutInfoSet:nth-last-child(2):nth-child(3n + 1),
+  .aboutInfoSet:nth-last-child(1):nth-child(3n + 2) {
+    flex-basis: 90%;
   }
 
   .aboutBannerBelow {
@@ -4456,7 +4476,35 @@
     line-height: normal;
   }
 
+  .aboutCertificate img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: auto;
+  }
+
   /* Enquiry Page */
+
+  .Enquiry .infoContainer .enquireInfo {
+    width: 100%;
+  }
+
+  .Enquiry .infoContainer .enquireInfoSet {
+    display: flex;
+    padding: 16px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 100px;
+    background: var(--Orange-orange-100, #fbddb0);
+    color: var(--Text-Black-text-black-300, #5f5f5f);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
 
   .contactForm {
     display: flex;
