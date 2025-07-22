@@ -4397,6 +4397,24 @@
     line-height: normal;
   }
 
+  .circle-scanner {
+    width: 100%;
+    animation: rotate360 5s linear infinite; /* Add animation here */
+  }
+
+  @keyframes rotate360 {
+    from {
+      transform: translate(-50%, -80%) rotate(0deg); /* Start rotation */
+    }
+    to {
+      transform: translate(-50%, -80%) rotate(360deg); /* End rotation */
+    }
+  }
+
+  .ProductMachines .homeMachineSet{
+    width: 100%;
+  }
+
   /* About */
 
   .About .productBanner {
