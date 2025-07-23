@@ -4411,8 +4411,34 @@
     }
   }
 
-  .ProductMachines .homeMachineSet{
+  .ProductMachines .homeMachineSet {
     width: 100%;
+  }
+
+  .ProductFDM {
+    display: flex;
+    padding: 48px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  .ProductFDM section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+  }
+
+  .ProductFDM h2 {
+    color: var(--Text-Black-Primary, #101010);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
   }
 
   /* About */

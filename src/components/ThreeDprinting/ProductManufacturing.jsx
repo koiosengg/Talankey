@@ -1,6 +1,6 @@
 import React from "react";
 import VisionSVG from "../../assets/ThreeDprinting/vision.svg";
-import VisionMobile from "../../assets/ThreeDprinting/visionMobile.png";
+import VisionMobile from "../../assets/ThreeDprinting/visionMobile.svg";
 
 function ProductManufacturing() {
   return (
