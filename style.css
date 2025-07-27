@@ -5,6 +5,10 @@
   letter-spacing: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .navbarContainer {
   display: flex;
   width: 100%;
@@ -347,6 +351,10 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.HomeBannerBackground img:last-child {
+  display: none;
 }
 
 .HomeBannerText {
@@ -3115,6 +3123,16 @@
 
 /* Resposive */
 
+@media screen and (max-width: 500px) {
+  .HomeBannerBackground img:first-child {
+    display: none;
+  }
+
+  .HomeBannerBackground img:last-child {
+    display: block;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .notMobile {
     display: none;
@@ -3653,6 +3671,7 @@
 
   .HomeStory .infoContainerDiv img {
     width: 100%;
+    max-height: 100%;
     object-fit: cover;
   }
 

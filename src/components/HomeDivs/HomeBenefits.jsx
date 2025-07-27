@@ -30,50 +30,50 @@ function HomeBenefits() {
           </div>
           <div className="content">
             <h4>
-             Quality & <br /> <span>Accuracy</span>
+              Quality & <br /> <span>Accuracy</span>
             </h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-              arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-              ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
-              Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum
-              dolor sit amet consectetur.
+              We uphold the highest standards of manufacturing excellence. Every
+              part we produce undergoes rigorous quality checks. Precision
+              engineering and advanced CNC machining ensure dimensional accuracy
+              across metal, plastic, or nylon. Our QA processes deliver
+              components that meet exact specifications, time after time.
             </p>
           </div>
         </div>
         <div className="homebenefitSet">
           <div className="heading">
             <img src={HomeBenefitSetHeadingBackground}></img>
-            <h3>Commitment to Exellence</h3>
+            <h3>Timelines with Accuracy</h3>
           </div>
           <div className="content">
             <h4>
-        Lead Time & <br /> <span>Precision</span>
+              Lead Time & <br /> <span>Precision</span>
             </h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-              arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-              ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
-              Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum
-              dolor sit amet consectetur.
+              We understand that time is critical in every project. We ensures
+              fast, dependable turnaround without sacrificing precision. Whether
+              prototyping or production, our streamlined operations and
+              automated machining reduce downtime. Our clients trust us for
+              tight timelines with no compromise on quality.
             </p>
           </div>
         </div>
         <div className="homebenefitSet">
           <div className="heading">
             <img src={HomeBenefitSetHeadingBackground}></img>
-            <h3>Commitment to Exellence</h3>
+            <h3>Value without Compromise</h3>
           </div>
           <div className="content">
             <h4>
-        Competitive  <br /> <span>Pricing</span>
+              Competitive <br /> <span>Pricing</span>
             </h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-              arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-              ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
-              Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum
-              dolor sit amet consectetur.
+              Our localized setup in Bangalore, coupled with in-house SPM
+              manufacturing, expert sub-assembly services, and streamlined
+              operations, allows us to optimize production costs. We provide
+              pricing that delivers exceptional value while maintaining the
+              highest levels of quality, reliability, and consistency.
             </p>
           </div>
         </div>

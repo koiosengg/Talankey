@@ -4,20 +4,20 @@ import { Link } from "react-router-dom";
 
 function HomeProducts() {
   return (
-    <div className="infoContainer HomeProducts">
+    <div className="infoContainer HomeProducts" id="services">
       <div className="infoContainerHeading">
         <div className="subHeading">
           <div className="headingLine"></div>
-          <p>Our Diverse Products</p>
+          <p>Our Diverse Services</p>
           <div className="headingLine"></div>
         </div>
         <div className="heading">
           <h2>
-            Highlighting <br /> Industry Expertise
+            Discover <br /> Talankey Solutions
           </h2>
           <p>
             Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu. Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
+            arcu. Commodo senectus morbi faucibus lectus sit mi. Odio
           </p>
         </div>
       </div>
@@ -27,12 +27,13 @@ function HomeProducts() {
           <div className="text">
             <div className="info">
               <h4>
-                CNC Turning <span>Services</span>{" "}
+                CNC Turning <span>Services</span>
               </h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-                arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-                ipsum dolor sit amet consectetur.{" "}
+                Talankey delivers precision CNC turning services in Bangalore
+                for metal, plastic, and nylon parts. With advanced lathes and
+                expert programming, we machine cylindrical components with tight
+                tolerances and smooth, repeatable finishes.
               </p>
             </div>
             <div className="homeProductButton">
@@ -70,7 +71,7 @@ function HomeProducts() {
                   </g>
                 </svg>
               </div>
-              <p>Learn More</p>
+              <p>Know More</p>
             </div>
           </div>
           <div className="Image">
@@ -83,12 +84,13 @@ function HomeProducts() {
           <div className="text">
             <div className="info">
               <h4>
-                CNC Milling <span>Services</span>{" "}
+                CNC Milling <span>Services</span>
               </h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-                arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-                ipsum dolor sit amet consectetur.{" "}
+                Talankey offers CNC milling services in Bangalore, crafting
+                precision parts from metal, plastic, and nylon. Our multi-axis
+                machines ensure accurate geometries, tight tolerances, and
+                smooth surface finishes.
               </p>
             </div>
             <div className="homeProductButton">
@@ -126,7 +128,7 @@ function HomeProducts() {
                   </g>
                 </svg>
               </div>
-              <p>Learn More</p>
+              <p>Know More</p>
             </div>
           </div>
           <div className="Image">
@@ -139,12 +141,14 @@ function HomeProducts() {
           <div className="text">
             <div className="info">
               <h4>
-                Laser Cutting <br /> <span>& Bending</span>
+                Metal <br /> <span>Fabrication</span>
               </h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-                arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-                ipsum dolor sit amet consectetur.{" "}
+                Talankey provides custom metal fabrication services in
+                Bangalore, serving industries with precision-built sheet metal
+                parts and welded structures. From laser cutting to bending and
+                assembly, we deliver high-strength, ready-to-use fabricated
+                components.
               </p>
             </div>
             <div className="homeProductButton">
@@ -182,7 +186,7 @@ function HomeProducts() {
                   </g>
                 </svg>
               </div>
-              <p>Learn More</p>
+              <p>Know More</p>
             </div>
           </div>
           <div className="Image">
@@ -195,12 +199,13 @@ function HomeProducts() {
           <div className="text">
             <div className="info">
               <h4>
-                EDM<span>Services</span>{" "}
+                EDM<span>Services</span>
               </h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-                arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-                ipsum dolor sit amet consectetur.{" "}
+                Talankey offers precision EDM services in Bangalore for complex,
+                high-tolerance components. Using wire and die-sinking EDM, we
+                machine hard metals and intricate profiles with excellent
+                surface finish and minimal thermal distortion.
               </p>
             </div>
             <div className="homeProductButton">
@@ -238,7 +243,7 @@ function HomeProducts() {
                   </g>
                 </svg>
               </div>
-              <p>Learn More</p>
+              <p>Know More</p>
             </div>
           </div>
           <div className="Image">
@@ -251,12 +256,12 @@ function HomeProducts() {
           <div className="text">
             <div className="info">
               <h4>
-                3D Scanning <span>Services</span>{" "}
+                3D Scanning <span>Services</span>
               </h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-                arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-                ipsum dolor sit amet consectetur.{" "}
+                Talankey offers 3D scanning services in Bangalore for reverse
+                engineering and inspection. Our scanners capture precise surface
+                data for CAD modeling, replication, and dimensional checks.
               </p>
             </div>
             <div className="homeProductButton">
@@ -294,7 +299,7 @@ function HomeProducts() {
                   </g>
                 </svg>
               </div>
-              <p>Learn More</p>
+              <p>Know More</p>
             </div>
           </div>
           <div className="Image">
@@ -307,12 +312,13 @@ function HomeProducts() {
           <div className="text">
             <div className="info">
               <h4>
-                3D Printing <span>Services</span>{" "}
+                3D Printing <span>Services</span>
               </h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-                arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-                ipsum dolor sit amet consectetur.{" "}
+                Talankey delivers 3D printing services in Bangalore for rapid
+                prototyping and custom parts. Using additive manufacturing, we
+                build accurate plastic and nylon components with quick
+                turnaround times.
               </p>
             </div>
             <div className="homeProductButton">
@@ -350,7 +356,7 @@ function HomeProducts() {
                   </g>
                 </svg>
               </div>
-              <p>Learn More</p>
+              <p>Know More</p>
             </div>
           </div>
           <div className="Image">
@@ -363,12 +369,13 @@ function HomeProducts() {
           <div className="text">
             <div className="info">
               <h4>
-                Special Purpose Machine <span>Manufacturing</span>{" "}
+                Special Purpose Machine <span>Manufacturing</span>
               </h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-                arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-                ipsum dolor sit amet consectetur.{" "}
+                Talankey manufactures custom Special Purpose Machines (SPMs) in
+                Bangalore to improve production efficiency. Engineered for
+                precision and speed, our SPMs are built to meet specific
+                industrial process needs.
               </p>
             </div>
             <div className="homeProductButton">
@@ -406,7 +413,7 @@ function HomeProducts() {
                   </g>
                 </svg>
               </div>
-              <p>Learn More</p>
+              <p>Know More</p>
             </div>
           </div>
           <div className="Image">

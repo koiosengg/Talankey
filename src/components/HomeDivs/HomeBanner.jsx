@@ -7,8 +7,8 @@ function HomeBanner() {
   return (
     <div className="homeBannerContainer">
       <div className="HomeBannerBackground">
-        <img className="notMobile" src={HomeBannerBackground}></img>
-        <img className="mobile" src={MobileHomeBannerBackground}></img>
+        <img  src={HomeBannerBackground}></img>
+        <img  src={MobileHomeBannerBackground}></img>
       </div>
       <div className="HomeBannerText">
         <div className="heading">
@@ -19,7 +19,7 @@ function HomeBanner() {
             in every industry.
           </p>
         </div>
-        <Link to="#" className="HomeBannerButton">
+        <a href="#services" className="HomeBannerButton">
           <p>Let’s Get Started</p>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +46,7 @@ function HomeBanner() {
               />
             </g>
           </svg>
-        </Link>
+        </a>
       </div>
     </div>
   );

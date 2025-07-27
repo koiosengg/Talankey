@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import HomeStoryImg from "../../assets/Home/HomeStory.svg"
+import HomeStoryImg from "../../assets/Home/HomeStory.svg";
 import MobileHomeStoryImg from "../../assets/Home/MobileHomeStory.svg";
 
 function HomeStory() {
@@ -15,25 +15,25 @@ function HomeStory() {
         <div className="heading">
           <h2>Company Overview</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu. Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
+            Explore how Talankey combines advanced manufacturing with trusted
+            expertise and how we help industries across Bangalore build smarter
+            and faster.
           </p>
         </div>
       </div>
       <div className="infoContainerDiv">
         <div className="homeStoryText">
-          <h4>About Talankey</h4>
+          <h4>Meet Talankey</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-            ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
-            Commodo senectus morbi faucibusLorem ipsum dolor sit amet
-            consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi
-            faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.
-            Libero lacus nullam sit arcu. Commodo senectus morbi faucibus{" "}
+            At Talankey, we don’t just manufacture, we partner with you to bring
+            ideas to life with precision and care. From CNC machining to 3D
+            printing and fabrication, every solution is built with attention to
+            detail and pride in quality. Trusted by leading industries, we’re
+            here to deliver value that lasts. Get to know the people and purpose
+            behind Talankey.
           </p>
           <Link to="/about">
-            <p>View More</p>
+            <p>Know More</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="20"
@@ -61,8 +61,16 @@ function HomeStory() {
             </svg>
           </Link>
         </div>
-        <img src={HomeStoryImg} alt="Talankey Home Story Img" className="notMobile"></img>
-        <img src={MobileHomeStoryImg} alt="Talankey Mobile Home Story Img" className="mobile"></img>
+        <img
+          src={HomeStoryImg}
+          alt="Talankey Home Story Img"
+          className="notMobile"
+        ></img>
+        <img
+          src={MobileHomeStoryImg}
+          alt="Talankey Mobile Home Story Img"
+          className="mobile"
+        ></img>
       </div>
     </div>
   );
