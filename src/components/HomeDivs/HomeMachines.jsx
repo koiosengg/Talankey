@@ -18,8 +18,9 @@ function HomeMachines() {
         <div className="heading">
           <h2>Infrastructure Behind the Craft</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu. Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
+            With advanced CNC systems and precision tools, Talankey’s
+            infrastructure delivers scalable, high-accuracy manufacturing for
+            diverse industries.
           </p>
         </div>
       </div>

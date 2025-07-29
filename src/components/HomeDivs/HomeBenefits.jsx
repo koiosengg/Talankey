@@ -1,5 +1,5 @@
 import React from "react";
-import HomeBenefitSetHeadingBackground from "../../assets/Home/HomeBenefitSetHeadingBackground.svg";
+import HomeBenefitSetHeadingBackground from "../../assets/Home/HomeBenefitSetHeadingBackground.png";
 
 function HomeBenefits() {
   return (

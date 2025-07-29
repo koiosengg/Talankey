@@ -15,8 +15,8 @@ function Testimonials() {
             Hear From <br /> Our Satisfied Customers
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu.<br></br> Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
+            Listen to the stories of our clients, how Talankey’s dedication and
+            care made a real difference in their manufacturing journey.
           </p>
         </div>
       </div>

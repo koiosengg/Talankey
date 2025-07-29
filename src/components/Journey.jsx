@@ -42,12 +42,14 @@ function Journey() {
     <div className="journey" ref={journeyRef}>
       <div className="heading">
         <h2>
-     Our Journey 
-          <br /><span>so Far</span> 
+          Our Journey
+          <br />
+          <span>so Far</span>
         </h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
-          Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
+          Talankey has delivered precision parts to 30+ companies across
+          automotive, aerospace, railways, and medical sectors with solutions
+          that power real-world innovation.
         </p>
       </div>
       <div className="journeySetContainer">
@@ -65,8 +67,7 @@ function Journey() {
         </div>
         <div className="journeySet">
           <span>{countriesShipped}+</span>
-          <p>Daily Part 
-Production</p>
+          <p>Daily Part Production</p>
         </div>
       </div>
     </div>

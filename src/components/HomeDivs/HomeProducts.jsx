@@ -16,8 +16,8 @@ function HomeProducts() {
             Discover <br /> Talankey Solutions
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu. Commodo senectus morbi faucibus lectus sit mi. Odio
+        From prototyping to production, Talankey delivers tailored manufacturing services. 
+Explore our capabilities in CNC, fabrication, 3D printing, and more.
           </p>
         </div>
       </div>

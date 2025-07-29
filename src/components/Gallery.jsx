@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import AboutTestImg from "../assets/Gallery/Talankey aboutTestImg.jfif";
 import AboutTestImg1 from "../assets/Gallery/Talankey aboutTestImg1.jfif";
 import AboutTestImg2 from "../assets/Gallery/Talankey aboutTestImg2.jfif";
@@ -20,8 +20,8 @@ function Gallery() {
         <div className="heading">
           <h2>Our Work In Pictures</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu.<br></br> Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
+            Explore projects we’ve proudly built. Our work showcases the
+            quality, detail, and trust we deliver every day.
           </p>
         </div>
       </div>
@@ -47,4 +47,4 @@ function Gallery() {
   );
 }
 
-export default Gallery
+export default Gallery;
