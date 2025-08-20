@@ -15,22 +15,24 @@ function BelowBanner() {
             <br /> Our <span className="bold">Expertise</span>
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-            ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
-            Commodo senectus morbi faucibusLorem ipsum dolor sit amet
-            consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi
-            faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.
-            Libero lacus nullam sit arcu. Commodo senectus morbi faucibus .
-            Lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit
-            mi. Odio Lorem ipsum dolor sit amet consectetur. Libero lacus nullam
-            sit arcu. Commodo senectus morbi faucibus . Lorem ipsum dolor sit.
-            Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu. gommodo senectus morbi faucibus lectus sit mi. Odio Lorem
-            ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
-            Commodo senectus morbi faucibusLorem ipsum dolor sit amet
-            consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi
-            faucibus lectus sit{" "}
+            Talankey was built on a belief: that precision manufacturing can
+            help industries build faster, better, and smarter. What began as a
+            small, focused team in Bangalore has grown into a trusted partner
+            for CNC machining, 3D printing, fabrication, and more.
+            <br /> Over time, we’ve served clients across automotive, aerospace,
+            EV, railways, and medical sectors—delivering components that meet
+            high standards and real-world demands.
+            <br /> Our mission is to deliver quality-driven manufacturing with
+            accuracy and efficiency. Our vision is to be a dependable partner
+            for businesses that value precision, innovation, and long-term
+            collaboration.
+            <br /> At Talankey, we’re not just making parts. We’re helping ideas
+            come to life. With skilled people, advanced machines, and a
+            commitment to every detail, we turn concepts into reliable
+            solutions.
+            <br /> Because to us, manufacturing is about more than just output.
+            It’s about building trust, enabling progress, and shaping what comes
+            next.
           </p>
         </div>
       </div>
@@ -45,7 +47,9 @@ function BelowBanner() {
             <h2>Company Overview</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-              arcu.<br className='notMobile'/> Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
+              arcu.
+              <br className="notMobile" /> Commodo senectus morbi faucibus
+              lectus sit mi. Odio{" "}
             </p>
           </div>
         </div>
@@ -54,15 +58,24 @@ function BelowBanner() {
           <div className="heading">
             <h4>About Talankey</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-              arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-              ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
-              Commodo senectus morbi faucibusLorem ipsum dolor sit amet
-              consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi
-              faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet
-              consectetur.dolor sit amet consectetur. Libero lacus nullam sit
-              arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-              ipsum dolor sit amet consectetur.{" "}
+              Talankey was built on a belief: that precision manufacturing can
+              help industries build faster, better, and smarter. What began as a
+              small, focused team in Bangalore has grown into a trusted partner
+              for CNC machining, 3D printing, fabrication, and more.
+              <br /> Over time, we’ve served clients across automotive,
+              aerospace, EV, railways, and medical sectors—delivering components
+              that meet high standards and real-world demands.
+              <br /> Our mission is to deliver quality-driven manufacturing with
+              accuracy and efficiency. Our vision is to be a dependable partner
+              for businesses that value precision, innovation, and long-term
+              collaboration.
+              <br /> At Talankey, we’re not just making parts. We’re helping
+              ideas come to life. With skilled people, advanced machines, and a
+              commitment to every detail, we turn concepts into reliable
+              solutions.
+              <br /> Because to us, manufacturing is about more than just
+              output. It’s about building trust, enabling progress, and shaping
+              what comes next.
             </p>
           </div>
         </div>

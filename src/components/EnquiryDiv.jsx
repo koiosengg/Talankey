@@ -12,12 +12,12 @@ function EnquiryDiv() {
             Looking for Information? <br /> <span>Enquire Here!</span>{" "}
           </h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-            ipsum dolor sit amet consectetur.
+            Have a project or need custom manufacturing support? Share your
+            requirements, and our team will respond with tailored solutions,
+            pricing, and timelines.
           </p>
         </div>
-        <Link to="/enquiry">Enquire Now</Link>
+        <Link to="/enquiry">Request for Quotation</Link>
       </div>
     </div>
   );

@@ -17,8 +17,9 @@ function Certificate() {
             Quality Assurance
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu.<br className='notMobile'/> Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
+            Certified for quality and trusted for precision,
+            <br className="notMobile" /> our ISO standards reflect the
+            consistency and care behind every part we manufacture.
           </p>
         </div>
       </div>
