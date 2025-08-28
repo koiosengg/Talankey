@@ -38,26 +38,14 @@ function Testimonials() {
           <div className="testimonyMarquee">
             <div className="testimonySet">
               <p>
-                “Talankey has been a reliable partner in our prototyping phase.
-                The turnaround time and precision of their CNC work exceeded our
-                expectations.”
+                “Excellent surface finish, tight tolerances, and great service.
+                Couldn’t have asked for a better manufacturing partner in
+                Bangalore.”
               </p>
               <div className="testimonyInfo">
-                <img src={Luwa}></img>
+                <img src={Vasavi}></img>
                 <div className="heading">
-                  <h4> Luwa India Pvt Ltd</h4>
-                </div>
-              </div>
-            </div>
-            <div className="testimonySet">
-              <p>
-                “We’ve worked with many vendors, but Talankey stands out for
-                their consistency, transparency, and technical accuracy.”
-              </p>
-              <div className="testimonyInfo">
-                <img src={Polaris}></img>
-                <div className="heading">
-                  <h4> Polaris</h4>
+                  <h4>Vasavi Health Care Products</h4>
                 </div>
               </div>
             </div>
@@ -90,18 +78,6 @@ function Testimonials() {
             </div>
             <div className="testimonySet">
               <p>
-                “Their team is knowledgeable, responsive, and committed to
-                quality. Our 3D printed parts were delivered exactly to spec.”
-              </p>
-              <div className="testimonyInfo">
-                <img src={Ati}></img>
-                <div className="heading">
-                  <h4> ATI Motors</h4>
-                </div>
-              </div>
-            </div>
-            <div className="testimonySet">
-              <p>
                 “Talankey’s 3D scanning support helped us reverse engineer a
                 legacy component with complete accuracy. Highly recommend them
                 for precision work.”
@@ -128,14 +104,13 @@ function Testimonials() {
             </div>
             <div className="testimonySet">
               <p>
-                “Excellent surface finish, tight tolerances, and great service.
-                Couldn’t have asked for a better manufacturing partner in
-                Bangalore.”
+                “Their team is knowledgeable, responsive, and committed to
+                quality. Our 3D printed parts were delivered exactly to spec.”
               </p>
               <div className="testimonyInfo">
-                <img src={Vasavi}></img>
+                <img src={Ati}></img>
                 <div className="heading">
-                  <h4>Vasavi Health Care Products</h4>
+                  <h4> ATI Motors</h4>
                 </div>
               </div>
             </div>
@@ -155,13 +130,14 @@ function Testimonials() {
             </div>
             <div className="testimonySet">
               <p>
-                “Great communication, fast lead times, and reliable quality.
-                They’re now our go-to for CNC and EDM services.”
+                “Talankey has been a reliable partner in our prototyping phase.
+                The turnaround time and precision of their CNC work exceeded our
+                expectations.”
               </p>
               <div className="testimonyInfo">
-                <img src={BuyMyEV}></img>
+                <img src={Luwa}></img>
                 <div className="heading">
-                  <h4>Buymyev Technology Pvt Ltd</h4>
+                  <h4> Luwa India Pvt Ltd</h4>
                 </div>
               </div>
             </div>
@@ -180,6 +156,18 @@ function Testimonials() {
             </div>
             <div className="testimonySet">
               <p>
+                “We’ve worked with many vendors, but Talankey stands out for
+                their consistency, transparency, and technical accuracy.”
+              </p>
+              <div className="testimonyInfo">
+                <img src={Polaris}></img>
+                <div className="heading">
+                  <h4> Polaris</h4>
+                </div>
+              </div>
+            </div>
+            <div className="testimonySet">
+              <p>
                 “We had very specific requirements for a medical equipment
                 component, and Talankey delivered exactly what we needed—on time
                 and without the need for revisions. That’s rare in our
@@ -189,6 +177,18 @@ function Testimonials() {
                 <img src={Vibrant}></img>
                 <div className="heading">
                   <h4>Vibrant Engineering Solutions</h4>
+                </div>
+              </div>
+            </div>
+            <div className="testimonySet">
+              <p>
+                “Great communication, fast lead times, and reliable quality.
+                They’re now our go-to for CNC and EDM services.”
+              </p>
+              <div className="testimonyInfo">
+                <img src={BuyMyEV}></img>
+                <div className="heading">
+                  <h4>Buymyev Technology Pvt Ltd</h4>
                 </div>
               </div>
             </div>
