@@ -127,8 +127,8 @@ function ProductEquipment() {
             State-of-the-Art <br /> Manufacturing Equipment
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu. Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
+            Advanced CNC milling machines in Bangalore deliver tight tolerances,
+            superior accuracy, and smooth surface finishes for all industries.
           </p>
         </div>
       </div>

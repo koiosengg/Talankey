@@ -1,86 +1,58 @@
 import React, { useState, useRef, useEffect } from "react";
 import ProductEquipmentDot from "../../assets/CNCmilling/ProductEquipmentDot.svg";
-import ProductGallery1 from "../../assets/CNCmilling/ProductGallery1.jfif";
-import ProductGallery2 from "../../assets/CNCmilling/ProductGallery2.jfif";
+import ProductGallery1 from "../../assets/CNCmilling/ProductGallery1.jpg";
+import ProductGallery2 from "../../assets/CNCmilling/ProductGallery2.jpg";
 
 const productEquipmentData = [
   {
-    mainHeading: "CNC Milling Machine",
+    mainHeading: (
+      <>
+        Phillips
+        <br /> PVM 855
+      </>
+    ),
     sets: [
       {
-        heading: "Rapid Turnaround",
-        paragraph:
-          "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
+        heading: "Year of installation",
+        paragraph: "2024",
       },
       {
-        heading: "High Precision",
-        paragraph:
-          "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
+        heading: "Maximum Travel",
+        paragraph: (
+          <>
+            Travel X: 850mm <br /> Travel Y : 550mm <br /> Travel Z: 600mm
+          </>
+        ),
       },
       {
-        heading: "Advanced Technology",
-        paragraph:
-          "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
+        heading: "ATC",
+        paragraph: "24 Tools",
       },
     ],
   },
   {
-    mainHeading: "Machine Product Name 2",
+    mainHeading: (
+      <>
+        Phillips
+        <br /> PVM 855
+      </>
+    ),
     sets: [
       {
-        heading: "Efficient Workflow",
-        paragraph:
-          "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
+        heading: "Year of installation",
+        paragraph: "2024",
       },
       {
-        heading: "Superior Quality",
-        paragraph:
-          "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
+        heading: "Maximum Travel",
+        paragraph: (
+          <>
+            Travel X: 850mm <br /> Travel Y : 550mm <br /> Travel Z: 600mm
+          </>
+        ),
       },
       {
-        heading: "Innovative Design",
-        paragraph:
-          "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
-      },
-    ],
-  },
-  {
-    mainHeading: "Machine Product Name 3",
-    sets: [
-      {
-        heading: "Rapid Turnaround",
-        paragraph:
-          "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
-      },
-      {
-        heading: "High Precision",
-        paragraph:
-          "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
-      },
-      {
-        heading: "Advanced Technology",
-        paragraph:
-          "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
-      },
-    ],
-  },
-  {
-    mainHeading: "Machine Product Name 4",
-    sets: [
-      {
-        heading: "Efficient Workflow",
-        paragraph:
-          "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
-      },
-      {
-        heading: "Superior Quality",
-        paragraph:
-          "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
-      },
-      {
-        heading: "Innovative Design",
-        paragraph:
-          "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
+        heading: "ATC",
+        paragraph: "24 Tools",
       },
     ],
   },
@@ -127,8 +99,8 @@ function ProductEquipment() {
             State-of-the-Art <br /> Manufacturing Equipment
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu. Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
+            Advanced CNC milling machines in Bangalore deliver tight tolerances,
+            superior accuracy, and smooth surface finishes for all industries.
           </p>
         </div>
       </div>
@@ -212,12 +184,7 @@ function ProductEquipment() {
                 transform: `translateX(${slidePosition}px)`,
               }}
             >
-              {[
-                ProductGallery1,
-                ProductGallery2,
-                ProductGallery1,
-                ProductGallery2,
-              ].map((image, index) => (
+              {[ProductGallery1, ProductGallery2].map((image, index) => (
                 <img
                   key={index}
                   src={image}

@@ -93,7 +93,7 @@ function Footer() {
         <p>2025 All rights reserved</p>
         <p>
           Crafted by{" "}
-          <a href="https://koiosengg.com/" target="_blank">
+          <a href="https://www.koiostudio.com/" target="_blank">
             The Koios Studio
           </a>{" "}
         </p>

@@ -94,7 +94,7 @@ function ProductProcess() {
               </div>
               <div className="content">
                 <h4>{process.title}</h4>
-                <p>{process.description}</p>
+                {/* <p>{process.description}</p> */}
               </div>
             </div>
           ))}

@@ -18,8 +18,7 @@ function ProductManufacturing() {
             Efficiency
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu. Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
+   Using high-resolution 3D scanners with micron-level accuracy and rapid data capture speeds, we deliver precise digital models for engineering, inspection, and reverse design in Bangalore.
           </p>
         </div>
       </div>

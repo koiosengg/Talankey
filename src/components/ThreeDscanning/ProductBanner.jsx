@@ -8,16 +8,23 @@ function ProductBanner() {
   return (
     <div className="productBanner">
       <div className="productBannerDiv">
-        <img src={BannerBackground} className="BannerBackground notMobile"></img>
-        <img src={MobileBannerBackground} className="BannerBackground mobile"></img>
+        <img
+          src={BannerBackground}
+          className="BannerBackground notMobile"
+        ></img>
+        <img
+          src={MobileBannerBackground}
+          className="BannerBackground mobile"
+        ></img>
         <img src={BannerCenter} className="BannerCenter"></img>
         <img src={BannerWheel} className="BannerWheel"></img>
       </div>
       <div className="heading">
         <h1>3D Sacnning Services</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
-          Commodo senectus morbi faucibus lectus sit mi. Odio
+          Offering advanced 3D scanning services in Bangalore with high
+          accuracy, detailed surface mapping, and precise digital measurements
+          for engineering and manufacturing needs.
         </p>
       </div>
     </div>

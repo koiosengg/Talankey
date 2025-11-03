@@ -15,7 +15,7 @@ import Pravaig from "../assets/Logos/Pravaig.png";
 
 function Testimonials() {
   return (
-    <div className="infoContainer">
+    <div className="infoContainer Home">
       <div className="infoContainerHeading">
         <div className="subHeading">
           <div className="headingLine"></div>

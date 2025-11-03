@@ -127,8 +127,9 @@ function ProductEquipment() {
             State-of-the-Art <br /> Manufacturing Equipment
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu. Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
+            High-precision EDM machines in Bangalore capable of intricate
+            detailing, fine tolerances, and consistent results for complex
+            parts.
           </p>
         </div>
       </div>

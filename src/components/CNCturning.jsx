@@ -2,14 +2,12 @@ import React from "react";
 import ProductBanner from "./CNCturning/ProductBanner";
 import ProductEnquire from "./CNCturning/ProductEnquire";
 import ProductEquipment from "./CNCturning/ProductEquipment";
-import ProductFacilities from "./CNCturning/ProductFacilities";
 import ProductProcess from "./CNCturning/ProductProcess";
 import ProductPortfolio from "./CNCturning/ProductPortfolio";
-import ProductBenefits from "./CNCturning/ProductBenefits";
+import HomeBenefits from "./HomeDivs/HomeBenefits";
 import Marquee from "./Marquee";
 import Gallery from "./Gallery";
 import Testimonials from "./Testimonials";
-import LogoMarquee from "./LogoMarquee";
 import EnquiryDiv from "./EnquiryDiv";
 
 function CNCturning() {
@@ -18,14 +16,14 @@ function CNCturning() {
       <ProductBanner />
       <ProductEnquire />
       <ProductEquipment />
-      <ProductFacilities />
+      {/* <ProductFacilities /> */}
       <ProductProcess />
       <ProductPortfolio />
-      <ProductBenefits />
+      <HomeBenefits />
       <Marquee />
       <Gallery />
       <Testimonials />
-      <LogoMarquee />
+      {/* <LogoMarquee /> */}
       <EnquiryDiv />
     </div>
   );

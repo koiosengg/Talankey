@@ -127,8 +127,8 @@ function ProductEquipment() {
             State-of-the-Art <br /> Manufacturing Equipment
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu. Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
+            Precision laser cutting and CNC bending machines in Bangalore ensure
+            clean edges, accurate profiles, and flawless fabrication results.
           </p>
         </div>
       </div>

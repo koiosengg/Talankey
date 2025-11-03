@@ -43,20 +43,16 @@ function BelowBanner() {
             <p>Our Story</p>
             <div className="headingLine"></div>
           </div>
-          <div className="heading">
-            <h2>Company Overview</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-              arcu.
-              <br className="notMobile" /> Commodo senectus morbi faucibus
-              lectus sit mi. Odio{" "}
-            </p>
-          </div>
         </div>
         <div className="infoContainerDiv">
           <img src={MobileAboutBannerBelow}></img>
           <div className="heading">
-            <h4>About Talankey</h4>
+            <h4>
+              <span style={{ color: "#F39200" }}>
+                Our <span className="bold"> Story, </span>
+              </span>{" "}
+              Our <span className="bold">Expertise</span>
+            </h4>
             <p>
               Talankey was built on a belief: that precision manufacturing can
               help industries build faster, better, and smarter. What began as a

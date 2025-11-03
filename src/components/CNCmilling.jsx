@@ -1,10 +1,10 @@
 import React from "react";
 import ProductBanner from "./CNCmilling/ProductBanner";
-import ProductBenefits from "./CNCmilling/ProductBenefits";
 import ProductEnquire from "./CNCmilling/ProductEnquire";
 import ProductEquipment from "./CNCmilling/ProductEquipment";
 import ProductProcess from "./CNCmilling/ProductProcess";
 import ProductPortfolio from "./CNCmilling/ProductPortfolio";
+import HomeBenefits from "./HomeDivs/HomeBenefits";
 import Marquee from "./Marquee";
 import Gallery from "./Gallery";
 import Testimonials from "./Testimonials";
@@ -19,7 +19,7 @@ function CNCmilling() {
       <ProductEquipment />
       <ProductProcess />
       <ProductPortfolio />
-      <ProductBenefits />
+      <HomeBenefits />
       <Marquee />
       <Gallery />
       <Testimonials />
