@@ -1855,6 +1855,39 @@ html {
   line-height: normal;
 }
 
+.threeD-scanning-precision {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.threeD-scanning-precision img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.threeD-scanning-precision h2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 666px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.92px;
+}
+
+.threeD-scanning-precision h2 span {
+  color: #ff6b00;
+}
+
 /* About us */
 
 .about-mission-vision {
@@ -2889,39 +2922,47 @@ html {
 }
 
 .contactLinkContainer {
-  width: 80%;
-  height: 255px;
+  width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 24px;
   gap: 40px;
   position: relative;
 }
 
 .contactLinkContainerBackground {
   width: 100%;
-  height: 255px;
-  position: absolute;
   object-fit: contain;
+}
+
+.contact-link-links {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 0px 100px;
+  z-index: 1;
 }
 
 .contactLinkSet {
   width: 100%;
   text-decoration: none;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
   gap: 16px;
-  z-index: 1;
+
   cursor: pointer;
 }
 
 .contactLinkSet .heading {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
   gap: 4px;
 }
 
@@ -2933,17 +2974,16 @@ html {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  text-align: center;
 }
 
 .contactLinkSet .heading span {
+  width: 100%;
   color: var(--Text-Black-text-black-300, #5f5f5f);
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  text-align: center;
 }
 
 /* Enquiry */
@@ -3087,6 +3127,7 @@ html {
   font-weight: 400;
   line-height: normal;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .footerLinkColumn a:hover {
@@ -3821,7 +3862,10 @@ html {
     height: auto;
     gap: 40px;
     overflow: visible;
-    overflow-x: hidden;
+  }
+
+  .Testimony-Div {
+    overflow: hidden;
   }
 
   .testimony {
@@ -3834,7 +3878,7 @@ html {
   }
 
   .testimonyBlurUp {
-    height: 440px;
+    height: 100%;
     width: 100px;
     top: 0;
     left: 0;
@@ -3843,7 +3887,7 @@ html {
   }
 
   .testimonyBlurDown {
-    height: 440px;
+    height: 100%;
     width: 100px;
     bottom: 0;
     right: 0;
@@ -4474,6 +4518,17 @@ html {
     line-height: normal;
   }
 
+  .threeD-scanning-precision h2 {
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
   /* About */
 
   .About .productBanner {
@@ -4683,6 +4738,10 @@ html {
   .contactLinkContainerBackground {
     width: 100%;
     height: 100%;
+  }
+
+  .contact-link-links {
+    padding: 0px 40px;
   }
 
   .contactLinkSet {

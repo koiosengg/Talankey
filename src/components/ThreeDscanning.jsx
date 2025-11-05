@@ -9,6 +9,7 @@ import Gallery from "./Gallery";
 import Testimonials from "./Testimonials";
 import LogoMarquee from "./LogoMarquee";
 import EnquiryDiv from "./EnquiryDiv";
+import Precision from "./ThreeDscanning/Precision";
 
 function ThreeDscanning() {
   return (
@@ -20,6 +21,7 @@ function ThreeDscanning() {
       <ProductMachines />
       <Marquee />
       <Gallery />
+      <Precision />
       <Testimonials />
       <LogoMarquee />
       <EnquiryDiv />

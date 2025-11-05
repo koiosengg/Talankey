@@ -11,12 +11,13 @@ function ProductEnquire() {
       </h3>
       <div className="content">
         <p>
-          Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
-          Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor
-          sit amet consectetur. Libero lacus nullam sit arcu. Commodo{" "}
+          Need more information or a custom quote for manufacturing services in
+          Bangalore? Share your details and our team will personally reach out
+          to guide you with expert insights, accurate pricing, and tailored
+          engineering solutions.
         </p>
         <Link to="/enquiry" className="productEnquireButton">
-        Request for Annotation
+          Request for Annotation
         </Link>
       </div>
     </div>

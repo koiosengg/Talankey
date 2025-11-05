@@ -13,8 +13,9 @@ function ProductBenefits() {
         <div className="heading">
           <h2>Why Choose 3D Printing</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu. Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
+            Precision, reliability, and efficiency—Talankey delivers top-tier
+            manufacturing solutions in Bangalore, making us your one-stop CNC
+            partner.
           </p>
         </div>
       </div>
@@ -26,15 +27,12 @@ function ProductBenefits() {
           </div>
           <div className="content">
             <h4>
-              Quality
-              <br /> <span>Control</span>{" "}
+              Cost Effective
+              <br /> <span>Production</span>
             </h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-              arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-              ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
-              Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum
-              dolor sit amet consectetur.
+              We will print your model on advanced equipment with high
+              precision. Support PLA, PETG, ABS and other materials.
             </p>
           </div>
         </div>
@@ -45,18 +43,15 @@ function ProductBenefits() {
           </div>
           <div className="content">
             <h4>
-              Custom
-              <br /> <span>Solutions</span>{" "}
+              Cost Effective
+              <br /> <span>Production</span>
             </h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-              arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-              ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
-              Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum
-              dolor sit amet consectetur.
+              We will print your model on advanced equipment with high
+              precision. Support PLA, PETG, ABS and other materials.
             </p>
           </div>
-        </div>
+        </div>{" "}
         <div className="homebenefitSet">
           <div className="heading">
             <img src={HomeBenefitSetHeadingBackground}></img>
@@ -64,17 +59,15 @@ function ProductBenefits() {
           </div>
           <div className="content">
             <h4>
-              Technology & <br /> <span>Equipment</span>{" "}
+              Cost Effective
+              <br /> <span>Production</span>
             </h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-              arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-              ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
-              Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum
-              dolor sit amet consectetur.
+              We will print your model on advanced equipment with high
+              precision. Support PLA, PETG, ABS and other materials.
             </p>
           </div>
-        </div>
+        </div>{" "}
         <div className="homebenefitSet">
           <div className="heading">
             <img src={HomeBenefitSetHeadingBackground}></img>
@@ -82,18 +75,15 @@ function ProductBenefits() {
           </div>
           <div className="content">
             <h4>
-              Quality
-              <br /> <span>Control</span>{" "}
+              Cost Effective
+              <br /> <span>Production</span>
             </h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-              arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-              ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
-              Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum
-              dolor sit amet consectetur.
+              We will print your model on advanced equipment with high
+              precision. Support PLA, PETG, ABS and other materials.
             </p>
           </div>
-        </div>
+        </div>{" "}
         <div className="homebenefitSet">
           <div className="heading">
             <img src={HomeBenefitSetHeadingBackground}></img>
@@ -101,18 +91,15 @@ function ProductBenefits() {
           </div>
           <div className="content">
             <h4>
-              Custom
-              <br /> <span>Solutions</span>{" "}
+              Cost Effective
+              <br /> <span>Production</span>
             </h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-              arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-              ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
-              Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum
-              dolor sit amet consectetur.
+              We will print your model on advanced equipment with high
+              precision. Support PLA, PETG, ABS and other materials.
             </p>
           </div>
-        </div>
+        </div>{" "}
         <div className="homebenefitSet">
           <div className="heading">
             <img src={HomeBenefitSetHeadingBackground}></img>
@@ -120,14 +107,12 @@ function ProductBenefits() {
           </div>
           <div className="content">
             <h4>
-              Technology & <br /> <span>Equipment</span>{" "}
+              Cost Effective
+              <br /> <span>Production</span>
             </h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-              arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem
-              ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
-              Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum
-              dolor sit amet consectetur.
+              We will print your model on advanced equipment with high
+              precision. Support PLA, PETG, ABS and other materials.
             </p>
           </div>
         </div>

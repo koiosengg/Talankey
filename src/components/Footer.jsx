@@ -8,10 +8,10 @@ function Footer() {
       <div className="footerLinkLogo">
         <div className="footerLogo">
           <Link to="/">
-            <img src={TalankeyOtherLogo} />{" "}
+            <img src={TalankeyOtherLogo} />
           </Link>
           <div className="footerSocialLink">
-            <a className="facebook">
+            <Link className="facebook">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -24,8 +24,8 @@ function Footer() {
                   fill="white"
                 />
               </svg>
-            </a>
-            <a className="twitter">
+            </Link>
+            <Link className="twitter">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -38,8 +38,8 @@ function Footer() {
                   fill="white"
                 />
               </svg>
-            </a>
-            <a className="linkedIn">
+            </Link>
+            <Link className="linkedIn">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -52,39 +52,39 @@ function Footer() {
                   fill="white"
                 />
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
         <div className="footerLink">
           <div className="footerLinkSet">
             <h4>Company</h4>
             <div className="footerLinkColumn">
-              <a>Home</a>
-              <a>About Us</a>
-              <a>Request for Quotation</a>
-              <a>Contact</a>
+              <Link to="/">Home</Link>
+              <Link to="/about">About Us</Link>
+              <Link to="/enquiry">Request for Quotation</Link>
+              <Link to="/contact">Contact</Link>
             </div>
           </div>
           <div className="footerLinkSet">
             <h4>Services</h4>
             <div className="footerLinkColumn">
-              <a>CNC Mining</a>
-              <a>CNC Turning</a>
-              <a>
+              <Link to="/CNCmilling">CNC Milling</Link>
+              <Link to="/CNCturning">CNC Turning</Link>
+              <Link to="/LaserCuttingAndBending">
                 Laser Cutting <br className="mobile" /> & Bending
-              </a>
-              <a>EDM’s</a>
-              <a>3D Scanning</a>
-              <a>3D Printing</a>
+              </Link>
+              <Link to="/EDM">EDM’s</Link>
+              <Link to="/3D_Scanning">3D Scanning</Link>
+              <Link to="/3D_Printing">3D Printing</Link>
             </div>
           </div>
           <div className="footerLinkSet">
             <h4>Legal</h4>
             <div className="footerLinkColumn">
-              <a>Legal</a>
-              <a>Security</a>
-              <a>Privacy Policy</a>
-              <a>FAQ</a>
+              <Link>Legal</Link>
+              <Link>Security</Link>
+              <Link>Privacy Policy</Link>
+              <Link>FAQ</Link>
             </div>
           </div>
         </div>
@@ -93,9 +93,9 @@ function Footer() {
         <p>2025 All rights reserved</p>
         <p>
           Crafted by{" "}
-          <a href="https://www.koiostudio.com/" target="_blank">
+          <Link href="https://www.koiostudio.com/" target="_blank">
             The Koios Studio
-          </a>{" "}
+          </Link>{" "}
         </p>
       </div>
     </div>

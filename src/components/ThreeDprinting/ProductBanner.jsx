@@ -8,16 +8,23 @@ function ProductBanner() {
   return (
     <div className="productBanner">
       <div className="productBannerDiv">
-        <img src={BannerBackground} className="BannerBackground notMobile"></img>
-        <img src={MobileBannerBackground} className="BannerBackground mobile"></img>
+        <img
+          src={BannerBackground}
+          className="BannerBackground notMobile"
+        ></img>
+        <img
+          src={MobileBannerBackground}
+          className="BannerBackground mobile"
+        ></img>
         <img src={BannerCenter} className="BannerCenter"></img>
         <img src={BannerWheel} className="BannerWheel"></img>
       </div>
       <div className="heading">
         <h1>3D Printing Services</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu.
-          Commodo senectus morbi faucibus lectus sit mi. Odio
+          Delivering high-quality 3D printing services in Bangalore with
+          advanced materials, rapid prototyping, and precision manufacturing for
+          diverse industrial needs.
         </p>
       </div>
     </div>
