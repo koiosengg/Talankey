@@ -1,5 +1,10 @@
 import React from "react";
 import TestImg from "../../assets/Contact/Talankey Laser Cutting and Bending.png";
+import CNC_Turning from "../../assets/Home/HomeProducts/CNC Turning.png";
+import CNC_Milling from "../../assets/Home/HomeProducts/CNC Milling.png";
+import Metal_Fabrication from "../../assets/Home/HomeProducts/Metal Fabrication.png";
+import EDM from "../../assets/Home/HomeProducts/EDM.png";
+import SPMM from "../../assets/Home/HomeProducts/Special Purpose Machine Manufacturing.png";
 import { Link } from "react-router-dom";
 
 function HomeProducts() {
@@ -16,8 +21,9 @@ function HomeProducts() {
             Discover <br /> Talankey Solutions
           </h2>
           <p>
-        From prototyping to production, Talankey delivers tailored manufacturing services. 
-Explore our capabilities in CNC, fabrication, 3D printing, and more.
+            From prototyping to production, Talankey delivers tailored
+            manufacturing services. Explore our capabilities in CNC,
+            fabrication, 3D printing, and more.
           </p>
         </div>
       </div>
@@ -76,7 +82,7 @@ Explore our capabilities in CNC, fabrication, 3D printing, and more.
           </div>
           <div className="Image">
             <div className="HomeProductBackground2"></div>
-            <img src={TestImg}></img>
+            <img src={CNC_Turning} alt="CNC Turning"></img>
           </div>
         </Link>
         <Link to="/CNCmilling" className="homeProductSet">
@@ -133,7 +139,7 @@ Explore our capabilities in CNC, fabrication, 3D printing, and more.
           </div>
           <div className="Image">
             <div className="HomeProductBackground2"></div>
-            <img src={TestImg}></img>
+            <img src={CNC_Milling} alt="CNC Milling"></img>
           </div>
         </Link>
         <Link to="/LaserCuttingAndBending" className="homeProductSet">
@@ -191,7 +197,7 @@ Explore our capabilities in CNC, fabrication, 3D printing, and more.
           </div>
           <div className="Image">
             <div className="HomeProductBackground2"></div>
-            <img src={TestImg}></img>
+            <img src={Metal_Fabrication} alt="Metal Fabrication"></img>
           </div>
         </Link>
         <Link to="/EDM" className="homeProductSet">
@@ -248,7 +254,7 @@ Explore our capabilities in CNC, fabrication, 3D printing, and more.
           </div>
           <div className="Image">
             <div className="HomeProductBackground2"></div>
-            <img src={TestImg}></img>
+            <img src={EDM} alt="EDM"></img>
           </div>
         </Link>
         <Link to="/3D_scanning" className="homeProductSet">
@@ -418,7 +424,7 @@ Explore our capabilities in CNC, fabrication, 3D printing, and more.
           </div>
           <div className="Image">
             <div className="HomeProductBackground2"></div>
-            <img src={TestImg}></img>
+            <img src={SPMM} alt="Special Purpose Machine Manufacturing"></img>
           </div>
         </Link>
       </div>
