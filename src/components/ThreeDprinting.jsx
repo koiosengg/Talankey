@@ -18,10 +18,10 @@ function ThreeDprinting() {
       <ProductBanner />
       <ProductEnquire />
       <ProductFDM />
-      <ProductBenefits />
+      {/* <ProductBenefits />
       <ProductPortfolio />
       <ProductManufacturing />
-      <ProductMaterials />
+      <ProductMaterials /> */}
       <Marquee />
       <Gallery />
       <Testimonials />

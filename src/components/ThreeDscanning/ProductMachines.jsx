@@ -20,8 +20,7 @@ function ProductMachines() {
             <br /> Industries
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu. Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
+        Empowering diverse industries in Bangalore with versatile 3D printing and scanning solutions for rapid prototyping, reverse engineering, and precision manufacturing applications.
           </p>
         </div>
       </div>

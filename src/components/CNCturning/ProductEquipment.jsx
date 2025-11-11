@@ -1,86 +1,48 @@
 import React, { useState, useRef, useEffect } from "react";
 import ProductEquipmentDot from "../../assets/CNCturning/ProductEquipmentDot.svg";
-import ProductGallery1 from "../../assets/CNCturning/ProductGallery1.jfif";
-import ProductGallery2 from "../../assets/CNCturning/ProductGallery2.jfif";
+import ProductGallery1 from "../../assets/CNCturning/ProductGallery1.jpg";
+import ProductGallery2 from "../../assets/CNCturning/ProductGallery2.jpg";
 
 const productEquipmentData = [
   {
-    mainHeading: "CNC Turning Machine",
+    mainHeading: "LMW SmartTurn",
     sets: [
       {
-        heading: "Rapid Turnaround",
-        paragraph:
-          "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
+        heading: "Maximum Turning ",
+        paragraph: (
+          <>
+            Diameter : 200mm <br /> Length : 250 mm
+          </>
+        ),
       },
       {
-        heading: "High Precision",
-        paragraph:
-          "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
+        heading: "Chuck Diameter",
+        paragraph: "165mm",
       },
       {
-        heading: "Advanced Technology",
-        paragraph:
-          "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
+        heading: "Tool Post",
+        paragraph: "8 Station bi-directional turret",
       },
     ],
   },
   {
-    mainHeading: "Machine Product Name 2",
+    mainHeading: "LMW SmartTurn",
     sets: [
       {
-        heading: "Efficient Workflow",
-        paragraph:
-          "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
+        heading: "Maximum Turning ",
+        paragraph: (
+          <>
+            Diameter : 200mm <br /> Length : 250 mm
+          </>
+        ),
       },
       {
-        heading: "Superior Quality",
-        paragraph:
-          "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
+        heading: "Chuck Diameter",
+        paragraph: "165mm",
       },
       {
-        heading: "Innovative Design",
-        paragraph:
-          "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
-      },
-    ],
-  },
-  {
-    mainHeading: "Machine Product Name 3",
-    sets: [
-      {
-        heading: "Rapid Turnaround",
-        paragraph:
-          "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
-      },
-      {
-        heading: "High Precision",
-        paragraph:
-          "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
-      },
-      {
-        heading: "Advanced Technology",
-        paragraph:
-          "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
-      },
-    ],
-  },
-  {
-    mainHeading: "Machine Product Name 4",
-    sets: [
-      {
-        heading: "Efficient Workflow",
-        paragraph:
-          "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
-      },
-      {
-        heading: "Superior Quality",
-        paragraph:
-          "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
-      },
-      {
-        heading: "Innovative Design",
-        paragraph:
-          "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
+        heading: "Tool Post",
+        paragraph: "8 Station bi-directional turret",
       },
     ],
   },
@@ -212,12 +174,7 @@ function ProductEquipment() {
                 transform: `translateX(${slidePosition}px)`,
               }}
             >
-              {[
-                ProductGallery1,
-                ProductGallery2,
-                ProductGallery1,
-                ProductGallery2,
-              ].map((image, index) => (
+              {[ProductGallery1, ProductGallery2].map((image, index) => (
                 <img
                   key={index}
                   src={image}

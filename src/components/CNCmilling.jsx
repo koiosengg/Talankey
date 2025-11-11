@@ -17,8 +17,8 @@ function CNCmilling() {
       <ProductBanner />
       <ProductEnquire />
       <ProductEquipment />
-      <ProductProcess />
-      <ProductPortfolio />
+      {/* <ProductProcess />
+      <ProductPortfolio /> */}
       <HomeBenefits />
       <Marquee />
       <Gallery />

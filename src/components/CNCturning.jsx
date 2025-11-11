@@ -17,8 +17,8 @@ function CNCturning() {
       <ProductEnquire />
       <ProductEquipment />
       {/* <ProductFacilities /> */}
-      <ProductProcess />
-      <ProductPortfolio />
+      {/* <ProductProcess />
+      <ProductPortfolio /> */}
       <HomeBenefits />
       <Marquee />
       <Gallery />

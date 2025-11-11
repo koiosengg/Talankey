@@ -5,6 +5,7 @@ import ProductEnquire from "./EDM/ProductEnquire";
 import ProductEquipment from "./EDM/ProductEquipment";
 import ProductProcess from "./EDM/ProductProcess";
 import ProductPortfolio from "./EDM/ProductPortfolio";
+import HomeBenefits from "./HomeDivs/HomeBenefits";
 import Marquee from "./Marquee";
 import Gallery from "./Gallery";
 import Testimonials from "./Testimonials";
@@ -13,20 +14,21 @@ import EnquiryDiv from "./EnquiryDiv";
 
 function EDM() {
   return (
-     <div className="product">
+    <div className="product">
       <ProductBanner />
       <ProductEnquire />
-      <ProductEquipment />
+      {/* <ProductEquipment />
       <ProductProcess />
       <ProductPortfolio />
-      <ProductBenefits />
+      <ProductBenefits /> */}
+      <HomeBenefits />
       <Marquee />
       <Gallery />
       <Testimonials />
       <LogoMarquee />
       <EnquiryDiv />
     </div>
-  )
+  );
 }
 
-export default EDM
+export default EDM;

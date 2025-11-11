@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import ProductEquipmentDot from "../../assets/ThreeDscanning/ProductEquipmentDot.svg";
-import ProductGallery1 from "../../assets/ThreeDscanning/ProductGallery1.jfif";
-import ProductGallery2 from "../../assets/ThreeDscanning/ProductGallery2.jfif";
+import ProductGallery1 from "../../assets/ThreeDscanning/ProductGallery1.png";
+import ProductGallery2 from "../../assets/ThreeDscanning/ProductGallery2.png";
 
 const productEquipmentData = [
   {
@@ -9,7 +9,7 @@ const productEquipmentData = [
     sets: [
       {
         paragraph:
-          "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
+          "Capture intricate details of any part or prototype with precision. Our 3D scanning transforms physical objects into high-accuracy digital models.",
       },
     ],
   },
@@ -18,7 +18,7 @@ const productEquipmentData = [
     sets: [
       {
         paragraph:
-          "Lorem ipsum dolor sit amet consectetur. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
+          "Capture intricate details of any part or prototype with precision. Our 3D scanning transforms physical objects into high-accuracy digital models.",
       },
     ],
   },

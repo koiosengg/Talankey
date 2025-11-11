@@ -5,6 +5,7 @@ import ProductEnquire from "./Laser Cutting And Bending/ProductEnquire";
 import ProductEquipment from "./Laser Cutting And Bending/ProductEquipment";
 import ProductProcess from "./Laser Cutting And Bending/ProductProcess";
 import ProductPortfolio from "./Laser Cutting And Bending/ProductPortfolio";
+import HomeBenefits from "./HomeDivs/HomeBenefits";
 import Marquee from "./Marquee";
 import Gallery from "./Gallery";
 import Testimonials from "./Testimonials";
@@ -16,10 +17,11 @@ function LaserCuttingAndBending() {
     <div className="product">
       <ProductBanner />
       <ProductEnquire />
-      <ProductEquipment />
+      {/* <ProductEquipment />
       <ProductProcess />
       <ProductPortfolio />
-      <ProductBenefits />
+      <ProductBenefits /> */}
+      <HomeBenefits />
       <Marquee />
       <Gallery />
       <Testimonials />
