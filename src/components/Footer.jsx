@@ -93,9 +93,9 @@ function Footer() {
         <p>2025 All rights reserved</p>
         <p>
           Crafted by{" "}
-          <Link href="https://www.koiostudio.com/" target="_blank">
-            The Koios Studio
-          </Link>{" "}
+          <a href="https://www.koiostudio.com/" target="_blank">
+            Koiostudio
+          </a>{" "}
         </p>
       </div>
     </div>
