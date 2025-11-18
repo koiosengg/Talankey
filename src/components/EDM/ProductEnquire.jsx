@@ -17,7 +17,7 @@ function ProductEnquire() {
           engineering solutions.
         </p>
         <Link to="/enquiry" className="productEnquireButton">
-          Request for Annotation
+          Request For Qoutation
         </Link>
       </div>
     </div>
