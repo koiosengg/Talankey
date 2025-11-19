@@ -9,17 +9,15 @@ const JotFormEmbed = () => {
     script.async = true;
     document.body.appendChild(script);
 
-    // Initialize JotForm embed handler after the script is loaded
     script.onload = () => {
       if (window.jotformEmbedHandler) {
         window.jotformEmbedHandler(
-          "iframe[id='JotFormIFrame-240382619705054']",
+          "iframe[id='JotFormIFrame-253220779169060']",
           "https://form.jotform.com/"
         );
       }
     };
 
-    // Clean up the script on component unmount
     return () => {
       document.body.removeChild(script);
     };
@@ -27,12 +25,12 @@ const JotFormEmbed = () => {
 
   return (
     <iframe
-      id="JotFormIFrame-240382619705054"
+      id="JotFormIFrame-253220779169060"
       title="Form"
       onLoad={() => window.parent.scrollTo(0, 0)}
+      allow="geolocation; microphone; camera; fullscreen; payment"
       allowtransparency="true"
-      allow="geolocation; microphone; camera; fullscreen"
-      src="https://form.jotform.com/240382619705054"
+      src="https://form.jotform.com/253220779169060"
       frameBorder="0"
       style={{
         minWidth: "100%",

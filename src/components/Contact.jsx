@@ -76,50 +76,54 @@ function Contact() {
               <p>{contactImages[activeIndex].text}</p>
             </div>
           </div>
-          <form className="contactFormDiv">
+          <form
+            action="https://formspree.io/f/xkgygpwg"
+            method="POST"
+            className="contactFormDiv"
+          >
             <div className="contactFormInput">
-              <label htmlFor="fullName">
+              <label htmlFor="Full_Name">
                 Full Name <span>*</span>
               </label>
               <input
                 type="text"
-                id="fullName"
-                name="fullName"
+                id="Full_Name"
+                name="Full Name"
                 placeholder="Enter name"
                 required
               />
             </div>
             <div className="contactFormInput">
-              <label htmlFor="email">
+              <label htmlFor="Email">
                 Email Address <span>*</span>
               </label>
               <input
                 type="email"
-                id="email"
-                name="email"
+                id="Email"
+                name="Email"
                 placeholder="Enter email"
                 required
               />
             </div>
             <div className="contactFormInput">
-              <label htmlFor="mobileNumber">
+              <label htmlFor="Mobile_Number">
                 Mobile Number <span>*</span>
               </label>
               <input
                 type="tel"
-                id="mobileNumber"
-                name="mobileNumber"
+                id="Mobile_Number"
+                name="Mobile Number"
                 placeholder="Enter number"
                 required
               />
             </div>
             <div className="contactFormInput">
-              <label htmlFor="message">
+              <label htmlFor="Message">
                 Message <span>*</span>
               </label>
               <textarea
-                id="message"
-                name="message"
+                id="Message"
+                name="Message"
                 placeholder="Enter your message here"
                 required
               ></textarea>
