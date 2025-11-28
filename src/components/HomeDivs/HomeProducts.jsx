@@ -5,6 +5,7 @@ import CNC_Milling from "../../assets/Home/HomeProducts/CNC Milling.png";
 import Metal_Fabrication from "../../assets/Home/HomeProducts/Metal Fabrication.png";
 import EDM from "../../assets/Home/HomeProducts/EDM.png";
 import SPMM from "../../assets/Home/HomeProducts/Special Purpose Machine Manufacturing.png";
+import ThreeDprinting from "../../assets/Home/HomeProducts/ThreeD Printing.png";
 import { Link } from "react-router-dom";
 
 function HomeProducts() {
@@ -367,7 +368,7 @@ function HomeProducts() {
           </div>
           <div className="Image">
             <div className="HomeProductBackground2"></div>
-            <img src={TestImg}></img>
+            <img src={ThreeDprinting}></img>
           </div>
         </Link>
         <Link to="/about" className="homeProductSet">

@@ -43,22 +43,22 @@ function ProductPortfolio() {
                     viewBox="0 0 24 24"
                     fill="none"
                   >
-                    <g clip-path="url(#clip0_992_10050)">
+                    <g clipPath="url(#clip0_992_10050)">
                       <path
                         d="M21.25 7.25V23.25M21.25 7.25L19.25 9.25M21.25 7.25L23.25 9.25M21.25 23.25L23.25 21.25M21.25 23.25L19.25 21.25M16.75 2.75H0.75M16.75 2.75L14.75 0.75M16.75 2.75L14.75 4.75M0.75 2.75L2.75 4.75M0.75 2.75L2.75 0.75M15.75 7.25H1.75C1.15 7.25 0.75 7.65 0.75 8.25V22.25C0.75 22.85 1.15 23.25 1.75 23.25H15.75C16.35 23.25 16.75 22.85 16.75 22.25V8.25C16.75 7.65 16.35 7.25 15.75 7.25Z"
                         stroke="#F26600"
-                        stroke-width="1.5"
-                        stroke-miterlimit="10"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="1.5"
+                        strokeMiterlimit="10"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M11.25 7.25H6.25V13.25H11.25V7.25Z"
                         stroke="#F26600"
-                        stroke-width="1.5"
-                        stroke-miterlimit="10"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="1.5"
+                        strokeMiterlimit="10"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                     </g>
                     <defs>

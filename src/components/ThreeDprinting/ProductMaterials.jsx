@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import HomeSectorSet1 from "../../assets/ThreeDprinting/Materials_1.jfif";
-import HomeSectorSet2 from "../../assets/ThreeDprinting/Materials_2.jpg";
+import HomeSectorSet1 from "../../assets/ThreeDprinting/Materials_1.png";
+import HomeSectorSet2 from "../../assets/ThreeDprinting/Materials_2.png";
 import HomeSectorSet3 from "../../assets/ThreeDprinting/Materials_3.jfif";
 
 function ProductMaterials() {
@@ -9,19 +9,19 @@ function ProductMaterials() {
     {
       title: "Polylatic Acid (PLA +)",
       content:
-        "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum ",
+        "PLA+ offers smoother surface finish and greater toughness than standard PLA, making it ideal for concept prototypes and high-detail models. It prints with precision and minimal warping, allowing designers to visualize and validate ideas efficiently. PLA+ is perfect for architectural mock-ups, product design models, fit-test parts and visual presentations where accuracy and refinement are essential.",
       img: HomeSectorSet1,
     },
     {
       title: "Acrylonitrile Butadiene Styrene (ABS)",
       content:
-        "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum ",
+        "ABS is one of the strongest and most heat-resistant industrial 3D printing materials, ideal for parts that require long-term mechanical strength and ruggedness. It remains stable under stress and is widely preferred for functional testing, production tooling and end-use components. ABS is extensively used in automotive interior parts, electronic enclosures, jigs, fixtures and prototype housings due to its reliability and engineering-grade performance.",
       img: HomeSectorSet2,
     },
     {
       title: "Flexible Thermoplastic Polyurethane",
       content:
-        "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum ",
+        "TPU is a highly elastic and abrasion-resistant material that performs exceptionally well in applications requiring flexibility and continuous movement. Its impact tolerance and durability make it suitable for dynamic, load-bearing parts that experience bending and deformation. This material is commonly used in components such as gaskets, seals, footwear prototypes, automotive bushings, protective grips and wearable product parts.",
       img: HomeSectorSet3,
     },
   ];

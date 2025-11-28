@@ -18,12 +18,13 @@ function ProductManufacturing() {
             your 3D Printing Project
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu. Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
+            Choose FDM for strong, dimensionally stable, cost-efficient parts
+            ideal for rapid prototyping, functional testing, and low-volume
+            manufacturing.
           </p>
         </div>
       </div>
-      <div className="infoContainerDiv">
+      <div className="infoContainerDiv" style={{ width: "100%" }}>
         <div className="threeD-vision-container">
           <img src={VisionSVG} className="notMobile visionImg" />
           <img src={VisionMobile} className="mobile visionImg" />
