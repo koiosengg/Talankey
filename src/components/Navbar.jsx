@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import CNCTurning from "/Navbar/CNC Turning.svg";
-import Laser from "/Navbar/Laser.svg";
-import CNCMillingServices from "/Navbar/CNC Milling Services.svg";
-import EDM from "/Navbar/EDM.svg";
+import CNCTurning from "/Navbar/CNC Turning.png";
+import CNCMilling from "/Navbar/CNC Milling.png";
+import Laser from "/Navbar/Laser.png";
+import EDM from "/Navbar/EDM.png";
+import Scan from "/Navbar/Scan.png";
+import Printing from "/Navbar/Prinintg.png";
 
 function Navbar({ homeNavbar }) {
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
@@ -133,8 +135,8 @@ function Navbar({ homeNavbar }) {
                       </svg>
                     </div>
                     <span>
-                      Lorem ipsum dolor sit amet consectetur. Sed leo urna
-                      vestibulum
+                      Precision turning for round components with stable
+                      accuracy.
                     </span>
                   </div>
                 </Link>
@@ -160,13 +162,13 @@ function Navbar({ homeNavbar }) {
                       </svg>
                     </div>
                     <span>
-                      Lorem ipsum dolor sit amet consectetur. Sed leo urna
-                      vestibulum
+                      Fast laser cutting and bending for precise sheet-metal
+                      parts.
                     </span>
                   </div>
                 </Link>
                 <Link to="/CNCmilling" className="navbarDropdownSet">
-                  <img src={CNCMillingServices} />
+                  <img src={CNCMilling} />
                   <div className="navbarDropdownText">
                     <div className="heading">
                       <span>CNC Milling Services</span>
@@ -184,8 +186,7 @@ function Navbar({ homeNavbar }) {
                       </svg>
                     </div>
                     <span>
-                      Lorem ipsum dolor sit amet consectetur. Sed leo urna
-                      vestibulum
+                      CNC milling for complex parts with tight tolerances.
                     </span>
                   </div>
                 </Link>
@@ -208,13 +209,12 @@ function Navbar({ homeNavbar }) {
                       </svg>
                     </div>
                     <span>
-                      Lorem ipsum dolor sit amet consectetur. Sed leo urna
-                      vestibulum
+                      Wire and spark EDM for detailed shapes and hard materials.
                     </span>
                   </div>
                 </Link>
                 <Link to="/3D_Scanning" className="navbarDropdownSet">
-                  <img src={CNCMillingServices} />
+                  <img src={Scan} />
                   <div className="navbarDropdownText">
                     <div className="heading">
                       <span>3D Scanning</span>
@@ -232,13 +232,13 @@ function Navbar({ homeNavbar }) {
                       </svg>
                     </div>
                     <span>
-                      Lorem ipsum dolor sit amet consectetur. Sed leo urna
-                      vestibulum
+                      High-accuracy scanning for measurement and reverse
+                      engineering.
                     </span>
                   </div>
                 </Link>
                 <Link to="/3D_Printing" className="navbarDropdownSet">
-                  <img src={EDM} />
+                  <img src={Printing} />
                   <div className="navbarDropdownText">
                     <div className="heading">
                       <span>3D Printing</span>
@@ -256,8 +256,8 @@ function Navbar({ homeNavbar }) {
                       </svg>
                     </div>
                     <span>
-                      Lorem ipsum dolor sit amet consectetur. Sed leo urna
-                      vestibulum
+                      Rapid 3D printing for prototypes and functional
+                      components.
                     </span>
                   </div>
                 </Link>
@@ -359,7 +359,9 @@ function Navbar({ homeNavbar }) {
                 fill="none"
                 style={{
                   transform: isOpen ? "rotate(-90deg)" : "rotate(90deg)",
-                  transition: "transform 0.3s ease", position:"relative",right:"4px"
+                  transition: "transform 0.3s ease",
+                  position: "relative",
+                  right: "4px",
                 }}
               >
                 <path
@@ -385,8 +387,7 @@ function Navbar({ homeNavbar }) {
                 <div className="content">
                   <h4>CNC Turning Services</h4>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur. Sed leo urna
-                    vestibulum
+                    Precision turning for round components with stable accuracy.
                   </p>
                 </div>
               </Link>
@@ -395,13 +396,10 @@ function Navbar({ homeNavbar }) {
                 onClick={handleLinkClick}
                 className="mobileNavbarDropdownSet"
               >
-                <img src={CNCMillingServices} alt="CNC Milling"></img>
+                <img src={CNCMilling} alt="CNC Milling"></img>
                 <div className="content">
                   <h4>CNC Milling Services</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur. Sed leo urna
-                    vestibulum
-                  </p>
+                  <p>CNC milling for complex parts with tight tolerances.</p>
                 </div>
               </Link>
               <Link
@@ -413,8 +411,8 @@ function Navbar({ homeNavbar }) {
                 <div className="content">
                   <h4>Laser Cutting and Bending</h4>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur. Sed leo urna
-                    vestibulum
+                    Fast laser cutting and bending for precise sheet-metal
+                    parts.
                   </p>
                 </div>
               </Link>
@@ -427,8 +425,7 @@ function Navbar({ homeNavbar }) {
                 <div className="content">
                   <h4>EDM Services</h4>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur. Sed leo urna
-                    vestibulum
+                    Wire and spark EDM for detailed shapes and hard materials.
                   </p>
                 </div>
               </Link>
@@ -437,12 +434,12 @@ function Navbar({ homeNavbar }) {
                 onClick={handleLinkClick}
                 className="mobileNavbarDropdownSet"
               >
-                <img src={EDM} alt="EDM Services"></img>
+                <img src={Scan} alt="3D Scanning Services"></img>
                 <div className="content">
                   <h4>3D Sacnning</h4>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur. Sed leo urna
-                    vestibulum
+                    High-accuracy scanning for measurement and reverse
+                    engineering.
                   </p>
                 </div>
               </Link>
@@ -451,12 +448,11 @@ function Navbar({ homeNavbar }) {
                 onClick={handleLinkClick}
                 className="mobileNavbarDropdownSet"
               >
-                <img src={EDM} alt="EDM Services"></img>
+                <img src={Printing} alt="3D Printing Services"></img>
                 <div className="content">
                   <h4>3D Printing</h4>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur. Sed leo urna
-                    vestibulum
+                    Rapid 3D printing for prototypes and functional components.
                   </p>
                 </div>
               </Link>

@@ -3,7 +3,7 @@ import ProductBanner from "./EDM/ProductBanner";
 import ProductBenefits from "./EDM/ProductBenefits";
 import ProductEnquire from "./EDM/ProductEnquire";
 import ProductEquipment from "./EDM/ProductEquipment";
-import ProductProcess from "./EDM/ProductProcess";
+import ProductProcess from "./CNCturning/ProductProcess";
 import ProductPortfolio from "./EDM/ProductPortfolio";
 import HomeBenefits from "./HomeDivs/HomeBenefits";
 import Marquee from "./Marquee";
@@ -17,10 +17,10 @@ function EDM() {
     <div className="product">
       <ProductBanner />
       <ProductEnquire />
-      {/* <ProductEquipment />
+      <ProductEquipment />
       <ProductProcess />
-      <ProductPortfolio />
-      <ProductBenefits /> */}
+      {/* <ProductPortfolio /> */}
+      {/* <ProductBenefits /> */}
       <HomeBenefits />
       <Marquee />
       <Gallery />

@@ -1,84 +1,54 @@
 import React, { useState, useRef, useEffect } from "react";
 import ProductEquipmentDot from "../../assets/Laser Cutting And Bending/ProductEquipmentDot.svg";
-import ProductGallery1 from "../../assets/Laser Cutting And Bending/ProductGallery1.jfif";
-import ProductGallery2 from "../../assets/Laser Cutting And Bending/ProductGallery2.jfif";
+import ProductGallery1 from "../../assets/Laser Cutting And Bending/ProductGallery1.png";
+import ProductGallery2 from "../../assets/Laser Cutting And Bending/ProductGallery2.png";
 
 const productEquipmentData = [
   {
-    mainHeading: "CNC Milling Machine",
+    mainHeading: (
+      <>
+        Laser Cutting
+        <br /> <span>Cutting Thickness 12mm </span>
+      </>
+    ),
     sets: [
       {
-        heading: "Rapid Turnaround",
+        heading: "Mild Steel",
         paragraph:
           "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
       },
       {
-        heading: "High Precision",
+        heading: "Aluminium",
         paragraph:
           "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
       },
       {
-        heading: "Advanced Technology",
+        heading: "Stainless Steel",
         paragraph:
           "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
       },
     ],
   },
   {
-    mainHeading: "Machine Product Name 2",
+    mainHeading: (
+      <>
+        Laser Cutting
+        <br /> <span>Cutting Thickness 12mm </span>
+      </>
+    ),
     sets: [
       {
-        heading: "Efficient Workflow",
+        heading: "Mild Steel",
         paragraph:
           "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
       },
       {
-        heading: "Superior Quality",
+        heading: "Aluminium",
         paragraph:
           "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
       },
       {
-        heading: "Innovative Design",
-        paragraph:
-          "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
-      },
-    ],
-  },
-  {
-    mainHeading: "Machine Product Name 3",
-    sets: [
-      {
-        heading: "Rapid Turnaround",
-        paragraph:
-          "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
-      },
-      {
-        heading: "High Precision",
-        paragraph:
-          "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
-      },
-      {
-        heading: "Advanced Technology",
-        paragraph:
-          "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
-      },
-    ],
-  },
-  {
-    mainHeading: "Machine Product Name 4",
-    sets: [
-      {
-        heading: "Efficient Workflow",
-        paragraph:
-          "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
-      },
-      {
-        heading: "Superior Quality",
-        paragraph:
-          "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
-      },
-      {
-        heading: "Innovative Design",
+        heading: "Stainless Steel",
         paragraph:
           "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur.",
       },
@@ -213,8 +183,6 @@ function ProductEquipment() {
               }}
             >
               {[
-                ProductGallery1,
-                ProductGallery2,
                 ProductGallery1,
                 ProductGallery2,
               ].map((image, index) => (

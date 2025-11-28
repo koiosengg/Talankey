@@ -1,6 +1,6 @@
 import React from "react";
 import ProductPortfolioBackground from "../../assets/ThreeDprinting/ProductPortfolioBackground.svg";
-import ProductProcess1 from "../../assets/Home/HomeSector/Talankey HomeSector (1).jfif";
+import ProductProcess1 from "../../assets/ThreeDprinting/FDM Capabilities.png";
 
 function ProductPortfolio() {
   return (
@@ -12,14 +12,15 @@ function ProductPortfolio() {
       <div className="infoContainerHeading">
         <div className="subHeading">
           <div className="headingLine"></div>
-          <p>Portfolio</p>
+          <p>Capabilities</p>
           <div className="headingLine"></div>
         </div>
         <div className="heading">
-          <h2>Showcasing Our Work</h2>
+          <h2>FDM Capabilities</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu. Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
+            FDM enables durable, cost-efficient prototypes and end-use parts
+            using layered thermoplastics, ideal for functional testing and
+            low-volume production.
           </p>
         </div>
       </div>

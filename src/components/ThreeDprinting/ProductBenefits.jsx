@@ -27,12 +27,12 @@ function ProductBenefits() {
           </div>
           <div className="content">
             <h4>
-              Cost Effective
+              Rapid
               <br /> <span>Production</span>
             </h4>
             <p>
-              We will print your model on advanced equipment with high
-              precision. Support PLA, PETG, ABS and other materials.
+              Create functional prototypes within hours, reducing development
+              cycles and accelerating product testing.
             </p>
           </div>
         </div>
@@ -43,12 +43,12 @@ function ProductBenefits() {
           </div>
           <div className="content">
             <h4>
-              Cost Effective
-              <br /> <span>Production</span>
+              Complex
+              <br /> <span>Geometry</span>
             </h4>
             <p>
-              We will print your model on advanced equipment with high
-              precision. Support PLA, PETG, ABS and other materials.
+              Manufacture intricate shapes and internal structures that are
+              impossible with traditional machining.
             </p>
           </div>
         </div>{" "}
@@ -63,8 +63,8 @@ function ProductBenefits() {
               <br /> <span>Production</span>
             </h4>
             <p>
-              We will print your model on advanced equipment with high
-              precision. Support PLA, PETG, ABS and other materials.
+              Eliminate tooling expenses and produce low-volume parts at
+              significantly low manufacturing costs.
             </p>
           </div>
         </div>{" "}
@@ -75,12 +75,12 @@ function ProductBenefits() {
           </div>
           <div className="content">
             <h4>
-              Cost Effective
-              <br /> <span>Production</span>
+              Material
+              <br /> <span>Versatility</span>
             </h4>
             <p>
-              We will print your model on advanced equipment with high
-              precision. Support PLA, PETG, ABS and other materials.
+              Choose from plastics, composites, and metals to match performance,
+              strength, and durability requirements.
             </p>
           </div>
         </div>{" "}
@@ -91,12 +91,12 @@ function ProductBenefits() {
           </div>
           <div className="content">
             <h4>
-              Cost Effective
-              <br /> <span>Production</span>
+              Design
+              <br /> <span>Flexibility</span>
             </h4>
             <p>
-              We will print your model on advanced equipment with high
-              precision. Support PLA, PETG, ABS and other materials.
+              Modify CAD models instantly and iterate designs faster without
+              production delays or retooling.
             </p>
           </div>
         </div>{" "}
@@ -107,12 +107,12 @@ function ProductBenefits() {
           </div>
           <div className="content">
             <h4>
-              Cost Effective
+              Low Waste
               <br /> <span>Production</span>
             </h4>
             <p>
-              We will print your model on advanced equipment with high
-              precision. Support PLA, PETG, ABS and other materials.
+              Use only the required material per build, minimizing scrap and
+              improving resource efficiency.
             </p>
           </div>
         </div>

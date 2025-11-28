@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
-import ProductProcess1 from "../../assets/Home/HomeSector/Talankey HomeSector (1).jfif";
-import ProductProcess2 from "../../assets/Home/HomeSector/Talankey HomeSector (1).jpg";
-import ProductProcess3 from "../../assets/Home/HomeSector/Talankey HomeSector (2).jfif";
-import ProductProcess4 from "../../assets/Home/HomeSector/Talankey HomeSector (2).jpg";
+import ProductProcess1 from "../../assets/CNCturning/ProductProcess1.png";
+import ProductProcess2 from "../../assets/CNCturning/ProductProcess2.png";
+import ProductProcess3 from "../../assets/CNCturning/ProductProcess3.png";
+import ProductProcess4 from "../../assets/CNCturning/ProductProcess4.png";
+import ProductProcess5 from "../../assets/CNCturning/ProductProcess5.png";
+import ProductProcess6 from "../../assets/CNCturning/ProductProcess6.png";
 
 function ProductProcess() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -31,17 +33,17 @@ function ProductProcess() {
         "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. morbi",
       image: ProductProcess4,
     },
-        {
+    {
       title: "Quality Control",
       description:
         "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. morbi",
-      image: ProductProcess3,
+      image: ProductProcess5,
     },
     {
       title: "Dispatch",
       description:
         "Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. Commodo senectus morbi faucibus lectus sit mi. Odio Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit arcu. morbi",
-      image: ProductProcess4,
+      image: ProductProcess6,
     },
   ];
 
@@ -70,8 +72,8 @@ function ProductProcess() {
             Key Steps to Precision and <br /> Efficiency
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu. Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
+            Optimized production processes deliver repeatable precision, faster
+            turnaround, and dependable manufacturing outcomes.
           </p>
         </div>
       </div>
@@ -120,7 +122,7 @@ function ProductProcess() {
           </div>
           <div className="mobileProductProcessText">
             <h5>{processData[activeIndex].title}</h5>
-            <p>{processData[activeIndex].description}</p>
+            {/* <p>{processData[activeIndex].description}</p> */}
           </div>
         </div>
         <div className="ProductProcessImg">
