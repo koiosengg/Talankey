@@ -16,8 +16,8 @@ function Enquiry() {
           />
           <h1>Enquire Here</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu. Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
+            Submit your project details and our engineering team will connect
+            with you for technical discussion.
           </p>
         </div>
       </div>
@@ -33,8 +33,8 @@ function Enquiry() {
               Our Process <span>Step by Step</span>
             </h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-              arcu.<br></br> Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
+              Our simple, structured enquiry process designed for quick review,
+              accurate evaluation, and faster response.
             </p>
           </div>
         </div>

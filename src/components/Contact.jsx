@@ -54,8 +54,8 @@ function Contact() {
           />
           <h1>How Can We Help?</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Libero lacus nullam sit
-            arcu. Commodo senectus morbi faucibus lectus sit mi. Odio{" "}
+            Share your requirements with us and receive expert consultation and
+            response from our team within 24 hours.
           </p>
         </div>
         <div className="contactFormContainer">
